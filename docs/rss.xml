@@ -1,2 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Meekdai.github.io/Gmeek-template</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Meekdai.github.io/Gmeek-template</link></image><lastBuildDate>Thu, 14 Mar 2024 09:17:29 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>请接着之后的安装步骤执行</title><link>https://Meekdai.github.io/Gmeek-template/post/qing-jie-zhao-zhi-hou-de-an-zhuang-bu-zou-zhi-xing.html</link><description>如果你点击了`READM.md`的链接后，看到了这个页面，请继续之后的安装步骤执行。</description><guid isPermaLink="true">https://Meekdai.github.io/Gmeek-template/post/qing-jie-zhao-zhi-hou-de-an-zhuang-bu-zou-zhi-xing.html</guid><pubDate>Thu, 14 Mar 2024 09:15:10 +0000</pubDate></item><item><title>这是Gmeek模板仓库</title><link>https://Meekdai.github.io/Gmeek-template/post/zhe-shi-Gmeek-mo-ban-cang-ku.html</link><description>通过这个模板创建库，可以大大减少部署Gmeek博客的配置步骤。</description><guid isPermaLink="true">https://Meekdai.github.io/Gmeek-template/post/zhe-shi-Gmeek-mo-ban-cang-ku.html</guid><pubDate>Wed, 20 Dec 2023 07:42:24 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://bagejiedian.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sun, 13 Sep 2026 14:33:33 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>2026小白3XUI搭建Hysteria2+Reality节点｜一步到位零基础保姆级搭建教程</title><link>https://bagejiedian.github.io/post/2026-xiao-bai-3XUI-da-jian-Hysteria2%2BReality-jie-dian-%EF%BD%9C-yi-bu-dao-wei-ling-ji-chu-bao-mu-ji-da-jian-jiao-cheng.html</link><description>一、准备工作
+1、购买vps丽萨主机:https://lisahost.com/aff.php?aff=1461
+
+2、域名在 Cloudflare 上做好解析
+
+3、下载 FinalShell SSH 工具（点击下方链接即可下载）
+Windows 下载：
+https://dl.hostbuf.com/finalshell3/finalshell_windows_x64.exe
+MacOS M芯片下载：
+https://dl.hostbuf.com/finalshell3/finalshell_macos_arm64.pkg
+MacOS intel 芯片下载：
+https://dl.hostbuf.com/finalshell3/finalshell_macos_x64.pkg
+V2rayN下载地址：
+https://github.com/2dust/v2rayN/releases/tag/7.25.1
+Clash下载地址：
+https://github.com/clash-verge-rev/clash-verge-rev/releases
+https://www.clashverge.dev/install.html
+
+二、Debian / Ubuntu 系统安装 sudo curl 必要的运行环境
+
+apt update &amp;&amp; apt install -y sudo curl
+
+三、放行 VPS 端口
+1、安装 防火墙UFW
+首先更新软件包列表并安装 UFW
+
+apt update
+apt install ufw -y
+2、放行目标端口
+
+ufw allow 22/tcp
+ufw allow 443/udp
+ufw allow 48888:50000/udp
+
+3、启用防火墙
+激活 UFW 以使规则生效：
+
+ufw enable
+4、验证配置结果
+最后，检查防火墙的状态和当前生效的规则：
+
+ufw status
+
+四、安装防火墙工具
+1、Debian / Ubuntu 系统安装防火墙工具
+
+apt install -y iptables iptables-persistent
+2、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)
+
+iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 443
+3、固化防火墙规则
+为了防止服务器重启后刚才敲的规则丢失
+netfilter-persistent save
+
+五、安装 BBR 网络拥塞控制
+sh -c 'echo 'net.core.default_qdisc=fq' &gt;&gt; /etc/sysctl.conf' &amp;&amp; sh -c 'echo 'net.ipv4.tcp_congestion_control=bbr' &gt;&gt; /etc/sysctl.conf' &amp;&amp; sysctl -p &amp;&amp; lsmod | grep bbr
+
+六、安装 3X - UI 面板
+bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v3.7.0
+。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/2026-xiao-bai-3XUI-da-jian-Hysteria2%2BReality-jie-dian-%EF%BD%9C-yi-bu-dao-wei-ling-ji-chu-bao-mu-ji-da-jian-jiao-cheng.html</guid><pubDate>Sun, 13 Sep 2026 14:33:08 +0000</pubDate></item></channel></rss>
