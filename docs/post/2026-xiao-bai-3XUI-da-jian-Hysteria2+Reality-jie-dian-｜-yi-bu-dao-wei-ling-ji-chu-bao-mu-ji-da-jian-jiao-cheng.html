@@ -29,47 +29,54 @@ https://github.com/clash-verge-rev/clash-verge-rev/releases
 https://www.clashverge.dev/install.html
 
 二、Debian / Ubuntu 系统安装 sudo curl 必要的运行环境
-
+```pyshon
 apt update && apt install -y sudo curl
-
+```
 三、放行 VPS 端口
 1、安装 防火墙UFW
 首先更新软件包列表并安装 UFW
-
+```pyshon
 apt update
 apt install ufw -y
+```
 2、放行目标端口
-
+```pyshon
 ufw allow 22/tcp
 ufw allow 443/udp
 ufw allow 48888:50000/udp
-
+```
 3、启用防火墙
 激活 UFW 以使规则生效：
-
+```pyshon
 ufw enable
+```
 4、验证配置结果
 最后，检查防火墙的状态和当前生效的规则：
-
+```pyshon
 ufw status
-
+```
 四、安装防火墙工具
 1、Debian / Ubuntu 系统安装防火墙工具
-
+```pyshon
 apt install -y iptables iptables-persistent
+```
 2、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)
-
+```pyshon
 iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 443
+```
 3、固化防火墙规则
 为了防止服务器重启后刚才敲的规则丢失
+```pyshon
 netfilter-persistent save
-
+```
 五、安装 BBR 网络拥塞控制
+```pyshon
 sh -c 'echo 'net.core.default_qdisc=fq' >> /etc/sysctl.conf' && sh -c 'echo 'net.ipv4.tcp_congestion_control=bbr' >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
-
+```
 六、安装 3X - UI 面板
+```pyshon
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v3.7.0
-。">
+```。">
 <meta property="og:title" content="2026小白3XUI搭建Hysteria2+Reality节点｜一步到位零基础保姆级搭建教程">
 <meta property="og:description" content="一、准备工作
 1、购买vps丽萨主机:https://lisahost.com/aff.php?aff=1461
@@ -90,47 +97,54 @@ https://github.com/clash-verge-rev/clash-verge-rev/releases
 https://www.clashverge.dev/install.html
 
 二、Debian / Ubuntu 系统安装 sudo curl 必要的运行环境
-
+```pyshon
 apt update && apt install -y sudo curl
-
+```
 三、放行 VPS 端口
 1、安装 防火墙UFW
 首先更新软件包列表并安装 UFW
-
+```pyshon
 apt update
 apt install ufw -y
+```
 2、放行目标端口
-
+```pyshon
 ufw allow 22/tcp
 ufw allow 443/udp
 ufw allow 48888:50000/udp
-
+```
 3、启用防火墙
 激活 UFW 以使规则生效：
-
+```pyshon
 ufw enable
+```
 4、验证配置结果
 最后，检查防火墙的状态和当前生效的规则：
-
+```pyshon
 ufw status
-
+```
 四、安装防火墙工具
 1、Debian / Ubuntu 系统安装防火墙工具
-
+```pyshon
 apt install -y iptables iptables-persistent
+```
 2、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)
-
+```pyshon
 iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 443
+```
 3、固化防火墙规则
 为了防止服务器重启后刚才敲的规则丢失
+```pyshon
 netfilter-persistent save
-
+```
 五、安装 BBR 网络拥塞控制
+```pyshon
 sh -c 'echo 'net.core.default_qdisc=fq' >> /etc/sysctl.conf' && sh -c 'echo 'net.ipv4.tcp_congestion_control=bbr' >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
-
+```
 六、安装 3X - UI 面板
+```pyshon
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v3.7.0
-。">
+```。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://bagejiedian.github.io/post/2026-xiao-bai-3XUI-da-jian-Hysteria2%2BReality-jie-dian-%EF%BD%9C-yi-bu-dao-wei-ling-ji-chu-bao-mu-ji-da-jian-jiao-cheng.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/137091274?v=4&size=64">
@@ -207,34 +221,44 @@ Clash下载地址：<br>
 <a href="https://github.com/clash-verge-rev/clash-verge-rev/releases">https://github.com/clash-verge-rev/clash-verge-rev/releases</a><br>
 <a href="https://www.clashverge.dev/install.html" rel="nofollow">https://www.clashverge.dev/install.html</a></p>
 <p>二、Debian / Ubuntu 系统安装 sudo curl 必要的运行环境</p>
-<p>apt update &amp;&amp; apt install -y sudo curl</p>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">apt update &amp;&amp; apt install -y sudo curl
+</code></pre>
 <p>三、放行 VPS 端口<br>
 1、安装 防火墙UFW<br>
 首先更新软件包列表并安装 UFW</p>
-<p>apt update<br>
-apt install ufw -y<br>
-2、放行目标端口</p>
-<p>ufw allow 22/tcp<br>
-ufw allow 443/udp<br>
-ufw allow 48888:50000/udp</p>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">apt update
+apt install ufw -y
+</code></pre>
+<p>2、放行目标端口</p>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">ufw allow 22/tcp
+ufw allow 443/udp
+ufw allow 48888:50000/udp
+</code></pre>
 <p>3、启用防火墙<br>
 激活 UFW 以使规则生效：</p>
-<p>ufw enable<br>
-4、验证配置结果<br>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">ufw enable
+</code></pre>
+<p>4、验证配置结果<br>
 最后，检查防火墙的状态和当前生效的规则：</p>
-<p>ufw status</p>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">ufw status
+</code></pre>
 <p>四、安装防火墙工具<br>
 1、Debian / Ubuntu 系统安装防火墙工具</p>
-<p>apt install -y iptables iptables-persistent<br>
-2、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)</p>
-<p>iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 443<br>
-3、固化防火墙规则<br>
-为了防止服务器重启后刚才敲的规则丢失<br>
-netfilter-persistent save</p>
-<p>五、安装 BBR 网络拥塞控制<br>
-sh -c 'echo "net.core.default_qdisc=fq" &gt;&gt; /etc/sysctl.conf' &amp;&amp; sh -c 'echo "net.ipv4.tcp_congestion_control=bbr" &gt;&gt; /etc/sysctl.conf' &amp;&amp; sysctl -p &amp;&amp; lsmod | grep bbr</p>
-<p>六、安装 3X - UI 面板<br>
-bash &lt;(curl -Ls <a href="https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh" rel="nofollow">https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh</a>) v3.7.0</p></div>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">apt install -y iptables iptables-persistent
+</code></pre>
+<p>2、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)</p>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 443
+</code></pre>
+<p>3、固化防火墙规则<br>
+为了防止服务器重启后刚才敲的规则丢失</p>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">netfilter-persistent save
+</code></pre>
+<p>五、安装 BBR 网络拥塞控制</p>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">sh -c 'echo "net.core.default_qdisc=fq" &gt;&gt; /etc/sysctl.conf' &amp;&amp; sh -c 'echo "net.ipv4.tcp_congestion_control=bbr" &gt;&gt; /etc/sysctl.conf' &amp;&amp; sysctl -p &amp;&amp; lsmod | grep bbr
+</code></pre>
+<p>六、安装 3X - UI 面板</p>
+<pre lang="pyshon" class="notranslate"><code class="notranslate">bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v3.7.0
+</code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
