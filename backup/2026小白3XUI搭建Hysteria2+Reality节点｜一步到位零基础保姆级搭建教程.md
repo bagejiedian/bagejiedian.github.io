@@ -57,6 +57,12 @@ iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 
 ```pyshon
 netfilter-persistent save
 ```
+验证有没有定向成功
+```pyshon
+iptables -t nat -L PREROUTING -n -v --line-numbers
+```
+出现类似下面的代表成功
+  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpts:48888:50000 redir ports 8443
 五、安装 BBR 网络拥塞控制
 ```pyshon
 sh -c 'echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf' && sh -c 'echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
