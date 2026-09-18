@@ -1,5 +1,89 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Fri, 18 Sep 2026 14:11:54 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>极光面板一键搭建 管理服务器 多级中转中转服务器节点提速 搭建tk专线 保护ip</title><link>https://bagejiedian.github.io/post/ji-guang-mian-ban-yi-jian-da-jian-%20-guan-li-fu-wu-qi-%20-duo-ji-zhong-zhuan-zhong-zhuan-fu-wu-qi-jie-dian-ti-su-%20-da-jian-tk-zhuan-xian-%20-bao-hu-ip.html</link><description>丽莎主机 原生ip 48小时可退
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Fri, 18 Sep 2026 14:39:17 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>Clash配置文件转换工具，小白就可以学的自建节点链接转换工具，完整版搭建教程，防止节点泄露，保护节点安全</title><link>https://bagejiedian.github.io/post/Clash-pei-zhi-wen-jian-zhuan-huan-gong-ju-%EF%BC%8C-xiao-bai-jiu-ke-yi-xue-de-zi-jian-jie-dian-lian-jie-zhuan-huan-gong-ju-%EF%BC%8C-wan-zheng-ban-da-jian-jiao-cheng-%EF%BC%8C-fang-zhi-jie-dian-xie-lu-%EF%BC%8C-bao-hu-jie-dian-an-quan.html</link><description>丽莎主机 原生ip 48小时可退
+https://lisahost.com/aff.php?aff=1461
+六六云服 原生ip 48小时可退
+https://666clouds.com/aff.php?aff=1128
+狗云 便宜
+https://www.dogyun.com/?ref=bage13
+搬瓦工 速度快
+https://bandwagonhost.com/aff.php?aff=75423
+vultr云服按时计费
+https://www.vultr.com/?ref=9580630
+1、必要更新操作(Debian/Ubuntu)
+```PYTHON
+apt update -y &amp;&amp; apt install -y curl socat wget
+```
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+放行端口
+```python
+ufw allow 25500
+ufw allow 58080
+ufw allow 80
+```
+2、安装 Docker（非大陆服务器）
+```python
+wget qO get.docker.com | bash
+```
+查看docker 版本
+```python
+docker -v  
+```
+# 设置开机自动启动
+```python
+systemctl enable docker
+```
+3、安装 Docker-compose（非大陆服务器)
+```python
+sudo curl -L 'https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)' -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+#查看docker-compose 版本
+docker-compose --version
+```
+4、部署后端
+```python
+docker run  -d --name=subconverter --restart=always -p 25500:25500 stilleshan/subconverter
+```
+验证是否安装成功
+```python
+curl http://localhost:25500/version
+```
+浏览器里输入
+curl http://149.28.152.99:25500/version
+
+5、搭建前端
+下载源码
+```python
+git clone https://github.com/CareyWang/sub-web.git
+```
+查看
+ls
+6、进入sub-wed文件夹
+cd /root/sub-web
+
+编辑.env文件
+# API 后端
+VUE_APP_SUBCONVERTER_DEFAULT_BACKEND = 'https://149.28.152.99:25500/'
+
+
+7、构建当前项目
+```python
+docker build -t subweb-local:latest .
+```
+8、执行
+```python
+docker run -d -p 58080:80 --restart always --name subweb subweb-local:late
+```
+ip:58080访问
+
+
+前端网页端
+Docker
+https://github.com/CareyWang/sub-web
+
+后端
+docker 部署
+项目地址：https://github.com/tindy2013/subconverter
+[https://github.com/tindy2013/subconverter/blob/master/README-docker.md](https://www.youtube.com/redirect?event=comments&amp;redir_token=QUZZTVljRms0ZnZaU0JzeHZ1S0Qtcnhzc1M3OXxBTl9pYzRkTkRqTUpxYVQya3JhQmRtX0pxZW5GXy1vX0lIdGxMamdITnRjZUhCRzBjMXZJNzRGZDlyVGFYQUpGQ25KLW41dHZjLWt1ZHk4YlAtcGVVU3hNSGRwc2RnSUt1VnNN&amp;q=https%3A%2F%2Fgithub.com%2Ftindy2013%2Fsubconverter%2Fblob%2Fmaster%2FREADME-docker.md)。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/Clash-pei-zhi-wen-jian-zhuan-huan-gong-ju-%EF%BC%8C-xiao-bai-jiu-ke-yi-xue-de-zi-jian-jie-dian-lian-jie-zhuan-huan-gong-ju-%EF%BC%8C-wan-zheng-ban-da-jian-jiao-cheng-%EF%BC%8C-fang-zhi-jie-dian-xie-lu-%EF%BC%8C-bao-hu-jie-dian-an-quan.html</guid><pubDate>Fri, 18 Sep 2026 14:38:46 +0000</pubDate></item><item><title>极光面板一键搭建 管理服务器 多级中转中转服务器节点提速 搭建tk专线 保护ip</title><link>https://bagejiedian.github.io/post/ji-guang-mian-ban-yi-jian-da-jian-%20-guan-li-fu-wu-qi-%20-duo-ji-zhong-zhuan-zhong-zhuan-fu-wu-qi-jie-dian-ti-su-%20-da-jian-tk-zhuan-xian-%20-bao-hu-ip.html</link><description>丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
 https://666clouds.com/aff.php?aff=1128
