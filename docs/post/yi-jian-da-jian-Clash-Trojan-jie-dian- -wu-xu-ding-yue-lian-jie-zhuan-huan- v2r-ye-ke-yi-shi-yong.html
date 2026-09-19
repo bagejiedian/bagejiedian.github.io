@@ -10,45 +10,93 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="1.购买云服https://lisahost.com/aff.php?aff=1461
- 解析域名cloudflare.com
+<meta name="description" content="购买 落地机 中转机 vps
+丽莎主机 原生ip 48小时可退
+https://lisahost.com/aff.php?aff=1461
+Vultr
+https://www.vultr.com/?ref=9580630
 
-2.输入一键安装脚本
-```PYTHON
-source <(curl -sL https://git.io/trojan-install)
-```
-如果提示curl命令找不到command not found，通过以下方法先安装curl
+六六云服isp
+https://666clouds.com/aff.php?aff=1128
 
-centos操作系统：
+双isp
+https://console.evoxt.com/aff.php?aff=1335
+
+
+1、必要更新操作(Debian/Ubuntu)
 ```PYTHON
-yum update -y && yum install curl -y
+apt update -y && apt install -y curl socat wget
 ```
-ubuntu操作系统：
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+
+放行端口
 ```PYTHON
-apt-get update -y && apt-get install curl -y
+ufw allow 8595
+ufw allow 80
+ufw allow 4321
 ```
-3.选择证书方式和域名
-trojan安装完成，提示重启trojan成功后，选择证书方式：Let’s Encrypt证书，输入注册的域名，可使用二级域名。">
+安装x-ui：
+```PYTHON
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+```
+https://ip125.com
+
+FinalShell下载
+www.hostbuf.com
+
+各平台客户端
+Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
+Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
+
+BBR加速四合一 BBR Plus / 原版BBR / 魔改BBR一键脚本（Centos 7, Debian 8/9, Ubuntu 16/18 测试通过）
+```PYTHON
+wget -N --no-check-certificate 'https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh' && chmod +x tcp.sh && ./tcp.sh
+```。">
 <meta property="og:title" content="一键搭建Clash-Trojan节点 无需订阅链接转换 v2r也可以使用">
-<meta property="og:description" content="1.购买云服https://lisahost.com/aff.php?aff=1461
- 解析域名cloudflare.com
+<meta property="og:description" content="购买 落地机 中转机 vps
+丽莎主机 原生ip 48小时可退
+https://lisahost.com/aff.php?aff=1461
+Vultr
+https://www.vultr.com/?ref=9580630
 
-2.输入一键安装脚本
-```PYTHON
-source <(curl -sL https://git.io/trojan-install)
-```
-如果提示curl命令找不到command not found，通过以下方法先安装curl
+六六云服isp
+https://666clouds.com/aff.php?aff=1128
 
-centos操作系统：
+双isp
+https://console.evoxt.com/aff.php?aff=1335
+
+
+1、必要更新操作(Debian/Ubuntu)
 ```PYTHON
-yum update -y && yum install curl -y
+apt update -y && apt install -y curl socat wget
 ```
-ubuntu操作系统：
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+
+放行端口
 ```PYTHON
-apt-get update -y && apt-get install curl -y
+ufw allow 8595
+ufw allow 80
+ufw allow 4321
 ```
-3.选择证书方式和域名
-trojan安装完成，提示重启trojan成功后，选择证书方式：Let’s Encrypt证书，输入注册的域名，可使用二级域名。">
+安装x-ui：
+```PYTHON
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+```
+https://ip125.com
+
+FinalShell下载
+www.hostbuf.com
+
+各平台客户端
+Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
+Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
+
+BBR加速四合一 BBR Plus / 原版BBR / 魔改BBR一键脚本（Centos 7, Debian 8/9, Ubuntu 16/18 测试通过）
+```PYTHON
+wget -N --no-check-certificate 'https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh' && chmod +x tcp.sh && ./tcp.sh
+```。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://bagejiedian.github.io/post/yi-jian-da-jian-Clash-Trojan-jie-dian-%20-wu-xu-ding-yue-lian-jie-zhuan-huan-%20v2r-ye-ke-yi-shi-yong.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/137091274?v=4&size=64">
@@ -119,37 +167,33 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>1.购买云服<a href="https://lisahost.com/aff.php?aff=1461" rel="nofollow">https://lisahost.com/aff.php?aff=1461</a><br>
-解析域名cloudflare.com</p>
-<p>2.输入一键安装脚本</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">source</span> <span class="pl-c1">&lt;</span>(<span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-s1">sL</span> <span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">git</span>.<span class="pl-c1">io</span><span class="pl-c1">/</span><span class="pl-s1">trojan</span><span class="pl-c1">-</span><span class="pl-s1">install</span>)</pre></div>
-<p>如果提示curl命令找不到command not found，通过以下方法先安装curl</p>
-<p>centos操作系统：</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">yum</span> <span class="pl-s1">update</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">yum</span> <span class="pl-s1">install</span> <span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-s1">y</span></pre></div>
-<p>ubuntu操作系统：</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span><span class="pl-c1">-</span><span class="pl-s1">get</span> <span class="pl-s1">update</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">apt</span><span class="pl-c1">-</span><span class="pl-s1">get</span> <span class="pl-s1">install</span> <span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-s1">y</span></pre></div>
-<p>3.选择证书方式和域名<br>
-trojan安装完成，提示重启trojan成功后，选择证书方式：Let’s Encrypt证书，输入注册的域名，可使用二级域名。<br>
-4.选择mysql安装方式<br>
-此处选择安装docker版mysql即可。</p>
-<p>5.输入用户名和密码<br>
-在安装完成后，提示输入用户名和密码，默认会生成一个随机用户名和密码，可直接使用默认。<br>
-6.查看最终的trojan节点链接信息<br>
-复制分享链接</p>
-<p>ClashForWindows导入trojan自建节点<br>
-1.下载yaml模板并调整配置。<br>
-打开链接<a href="https://clashyun.com/wp-content/uploads/clash_trojan_config.yaml" rel="nofollow">https://clashyun.com/wp-content/uploads/clash_trojan_config.yaml</a><br>
-下载模板配置文件，用记事本、VS Code、Notepad++等编辑器打开，<br>
-找到trojan配置块，把 server、port、password改成你服务器的信息：</p>
-<p>V2RayN导入trojan自建节点<br>
-打开V2rayN，点击【服务器】-&gt;【从剪贴板导入批量URL】，系统自动完成导入。</p>
-<p>关于v2rayN的使用教程可参见：v2rayN windows最新版本下载安装详细教程</p>
+<div class="markdown-body" id="postBody"><p>购买 落地机 中转机 vps<br>
+丽莎主机 原生ip 48小时可退<br>
+<a href="https://lisahost.com/aff.php?aff=1461" rel="nofollow">https://lisahost.com/aff.php?aff=1461</a><br>
+Vultr<br>
+<a href="https://www.vultr.com/?ref=9580630" rel="nofollow">https://www.vultr.com/?ref=9580630</a></p>
+<p>六六云服isp<br>
+<a href="https://666clouds.com/aff.php?aff=1128" rel="nofollow">https://666clouds.com/aff.php?aff=1128</a></p>
+<p>双isp<br>
+<a href="https://console.evoxt.com/aff.php?aff=1335" rel="nofollow">https://console.evoxt.com/aff.php?aff=1335</a></p>
+<p>1、必要更新操作(Debian/Ubuntu)</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">update</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-s1">curl</span> <span class="pl-s1">socat</span> <span class="pl-s1">wget</span></pre></div>
+<p>*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget</p>
+<p>放行端口</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">8595</span>
+<span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">80</span>
+<span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">4321</span></pre></div>
+<p>安装x-ui：</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">bash</span> <span class="pl-c1">&lt;</span>(<span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-v">Ls</span> <span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">raw</span>.<span class="pl-c1">githubusercontent</span>.<span class="pl-c1">com</span><span class="pl-c1">/</span><span class="pl-s1">vaxilu</span><span class="pl-c1">/</span><span class="pl-s1">x</span><span class="pl-c1">-</span><span class="pl-s1">ui</span><span class="pl-c1">/</span><span class="pl-s1">master</span><span class="pl-c1">/</span><span class="pl-s1">install</span>.<span class="pl-c1">sh</span>)</pre></div>
+<p><a href="https://ip125.com" rel="nofollow">https://ip125.com</a></p>
 <p>FinalShell下载<br>
 <a href="http://www.hostbuf.com" rel="nofollow">www.hostbuf.com</a></p>
-<p>Clash for windows 与 Clash for Android 中文汉化版仓库地址<br>
-<a href="https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases">https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases</a><br>
-v2rayN客户端<br>
-Windows（v2rayN）：<a href="https://github.com/2dust/v2rayN/releases/tag/6.23">https://github.com/2dust/v2rayN/releases/tag/6.23</a></p></div>
+<p>各平台客户端<br>
+Windows（v2rayN）：<a href="https://github.com/2dust/v2rayN/releases/tag/6.23">https://github.com/2dust/v2rayN/releases/tag/6.23</a><br>
+Android（v2rayNG）：<a href="https://github.com/2dust/v2rayNG/releases/tag/1.8.5">https://github.com/2dust/v2rayNG/releases/tag/1.8.5</a><br>
+IOS（shadowrocket）：<a href="https://apps.apple.com/app/shadowrocket/id932747118" rel="nofollow">https://apps.apple.com/app/shadowrocket/id932747118</a></p>
+<p>BBR加速四合一 BBR Plus / 原版BBR / 魔改BBR一键脚本（Centos 7, Debian 8/9, Ubuntu 16/18 测试通过）</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">wget</span> <span class="pl-c1">-</span><span class="pl-c1">N</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-s1">no</span><span class="pl-c1">-</span><span class="pl-s1">check</span><span class="pl-c1">-</span><span class="pl-s1">certificate</span> <span class="pl-s">"https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">chmod</span> <span class="pl-c1">+</span><span class="pl-s1">x</span> <span class="pl-s1">tcp</span>.<span class="pl-c1">sh</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> .<span class="pl-c1">/</span><span class="pl-c1">tcp</span>.<span class="pl-c1">sh</span></pre></div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>

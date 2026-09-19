@@ -1,47 +1,43 @@
-1.购买云服https://lisahost.com/aff.php?aff=1461
- 解析域名cloudflare.com
+购买 落地机 中转机 vps
+丽莎主机 原生ip 48小时可退
+https://lisahost.com/aff.php?aff=1461
+Vultr
+https://www.vultr.com/?ref=9580630
 
-2.输入一键安装脚本
+六六云服isp
+https://666clouds.com/aff.php?aff=1128
+
+双isp
+https://console.evoxt.com/aff.php?aff=1335
+
+
+1、必要更新操作(Debian/Ubuntu)
 ```PYTHON
-source <(curl -sL https://git.io/trojan-install)
+apt update -y && apt install -y curl socat wget
 ```
-如果提示curl命令找不到command not found，通过以下方法先安装curl
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
 
-centos操作系统：
+放行端口
 ```PYTHON
-yum update -y && yum install curl -y
+ufw allow 8595
+ufw allow 80
+ufw allow 4321
 ```
-ubuntu操作系统：
+安装x-ui：
 ```PYTHON
-apt-get update -y && apt-get install curl -y
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
-3.选择证书方式和域名
-trojan安装完成，提示重启trojan成功后，选择证书方式：Let’s Encrypt证书，输入注册的域名，可使用二级域名。
-4.选择mysql安装方式
-此处选择安装docker版mysql即可。
-
-5.输入用户名和密码
-在安装完成后，提示输入用户名和密码，默认会生成一个随机用户名和密码，可直接使用默认。
-6.查看最终的trojan节点链接信息
-复制分享链接
-
-ClashForWindows导入trojan自建节点
-1.下载yaml模板并调整配置。
-打开链接https://clashyun.com/wp-content/uploads/clash_trojan_config.yaml
-下载模板配置文件，用记事本、VS Code、Notepad++等编辑器打开，
-找到trojan配置块，把 server、port、password改成你服务器的信息：
-
-
-
-V2RayN导入trojan自建节点
-打开V2rayN，点击【服务器】->【从剪贴板导入批量URL】，系统自动完成导入。
-
-关于v2rayN的使用教程可参见：v2rayN windows最新版本下载安装详细教程
+https://ip125.com
 
 FinalShell下载
 www.hostbuf.com
 
-Clash for windows 与 Clash for Android 中文汉化版仓库地址
-https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases
-v2rayN客户端
+各平台客户端
 Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
+Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
+
+BBR加速四合一 BBR Plus / 原版BBR / 魔改BBR一键脚本（Centos 7, Debian 8/9, Ubuntu 16/18 测试通过）
+```PYTHON
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
