@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:32:53 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>2025零基础小白节点搭建 手把手教你搭建 人人都能学会 简简单单让你拥有目前最安全的节点</title><link>https://bagejiedian.github.io/post/2025-ling-ji-chu-xiao-bai-jie-dian-da-jian-%20-shou-ba-shou-jiao-ni-da-jian-%20-ren-ren-du-neng-xue-hui-%20-jian-jian-dan-dan-rang-ni-yong-you-mu-qian-zui-an-quan-de-jie-dian.html</link><description>1、购买vps 
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 18:17:22 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>2025零基础小白节点搭建 手把手教你搭建 人人都能学会 简简单单让你拥有目前最安全的节点</title><link>https://bagejiedian.github.io/post/2025-ling-ji-chu-xiao-bai-jie-dian-da-jian-%20-shou-ba-shou-jiao-ni-da-jian-%20-ren-ren-du-neng-xue-hui-%20-jian-jian-dan-dan-rang-ni-yong-you-mu-qian-zui-an-quan-de-jie-dian.html</link><description>1、购买vps 
 丽莎云
 https://lisahost.com/aff.php?aff=1461
 
@@ -707,7 +707,80 @@ Reality寻找适合的目标网站
 asn=='25820' &amp;&amp; country=='US' &amp;&amp; port=='443' &amp;&amp; cert!='Let's Encrypt' &amp;&amp; cert.issuer!='ZeroSSL' &amp;&amp; status_code='200'
 
 检测端口是否被封
-https://tcp.ping.pe/。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/%E3%80%90-ling-ji-chu-%E3%80%91-xiao-bai-da-jian-shu-yu-zi-ji-de-du-xiang-jie-dian-%20-xiang-xi-jiao-cheng-gen-zhao-bu-zou-%20-ren-ren-du-neng-xue-hui-%20-zui-jian-dan-%20-zui-an-quan-de-fang-shi-%20-dui-xiao-bai-te-bie-you-hao-%E3%80%82.html</guid><pubDate>Sat, 19 Sep 2026 02:14:05 +0000</pubDate></item><item><title>Clash配置文件转换工具，小白就可以学的自建节点链接转换工具，完整版搭建教程，防止节点泄露，保护节点安全</title><link>https://bagejiedian.github.io/post/Clash-pei-zhi-wen-jian-zhuan-huan-gong-ju-%EF%BC%8C-xiao-bai-jiu-ke-yi-xue-de-zi-jian-jie-dian-lian-jie-zhuan-huan-gong-ju-%EF%BC%8C-wan-zheng-ban-da-jian-jiao-cheng-%EF%BC%8C-fang-zhi-jie-dian-xie-lu-%EF%BC%8C-bao-hu-jie-dian-an-quan.html</link><description>丽莎主机 原生ip 48小时可退
+https://tcp.ping.pe/。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/%E3%80%90-ling-ji-chu-%E3%80%91-xiao-bai-da-jian-shu-yu-zi-ji-de-du-xiang-jie-dian-%20-xiang-xi-jiao-cheng-gen-zhao-bu-zou-%20-ren-ren-du-neng-xue-hui-%20-zui-jian-dan-%20-zui-an-quan-de-fang-shi-%20-dui-xiao-bai-te-bie-you-hao-%E3%80%82.html</guid><pubDate>Sat, 19 Sep 2026 02:14:05 +0000</pubDate></item><item><title>小白都能学会的反代神器NginxProxyManager搭建 保护网站 可视化管理 功能强大</title><link>https://bagejiedian.github.io/post/xiao-bai-du-neng-xue-hui-de-fan-dai-shen-qi-NginxProxyManager-da-jian-%20-bao-hu-wang-zhan-%20-ke-shi-hua-guan-li-%20-gong-neng-qiang-da.html</link><description>项目地址：
+https://nginxproxymanager.com
+1，vps一台
+丽莎主机 原生ip 48小时可退
+https://lisahost.com/aff.php?aff=1461
+六六云服 原生ip 48小时可退
+https://666clouds.com/aff.php?aff=1128
+vultr云服按时计费
+https://www.vultr.com/?ref=9580630
+
+2，必要的更新
+Debian/Ubuntu系统
+```python
+apt update -y  &amp;&amp; apt install -y curl
+```
+3，放行端口
+```python
+ufw allow 443
+ufw allow 80
+ufw allow 81
+ufw allow 
+```
+4，安装 Docker
+```python
+wget qO get.docker.com | bash
+docker -v  #查看 docker 版本
+systemctl enable docker  # 设置开机自动启动
+```
+5，安装 Docker-compose
+```python
+sudo curl -L 'https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)' -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version  #查看 docker-compose 版本
+```
+6，安装 Nginx Proxy Manager
+新建文件夹
+```python
+mkdir -p /root/.data/docker_data/npm
+```
+进入文件夹
+```python
+cd /root/data/docker_data/npm
+```
+新建一个文件命名为
+docker-compose.yml
+把下面的东西复制到文件里面
+```python
+version: '3.8'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+```
+然后保保存文件
+
+7，后台运行
+```python
+docker-compose up -d
+```
+8，登录
+ip:81访问
+
+默认管理员用户：
+Email:    admin@example.com
+Password: changeme
+
+。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/xiao-bai-du-neng-xue-hui-de-fan-dai-shen-qi-NginxProxyManager-da-jian-%20-bao-hu-wang-zhan-%20-ke-shi-hua-guan-li-%20-gong-neng-qiang-da.html</guid><pubDate>Sat, 19 Sep 2026 02:11:33 +0000</pubDate></item><item><title>Clash配置文件转换工具，小白就可以学的自建节点链接转换工具，完整版搭建教程，防止节点泄露，保护节点安全</title><link>https://bagejiedian.github.io/post/Clash-pei-zhi-wen-jian-zhuan-huan-gong-ju-%EF%BC%8C-xiao-bai-jiu-ke-yi-xue-de-zi-jian-jie-dian-lian-jie-zhuan-huan-gong-ju-%EF%BC%8C-wan-zheng-ban-da-jian-jiao-cheng-%EF%BC%8C-fang-zhi-jie-dian-xie-lu-%EF%BC%8C-bao-hu-jie-dian-an-quan.html</link><description>丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
 https://666clouds.com/aff.php?aff=1128
