@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:11:22 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>3xui安装失败解决办法GLIBC version 2.31 is too old! Required: 2.32 or higher</title><link>https://bagejiedian.github.io/post/3xui-an-zhuang-shi-bai-jie-jue-ban-fa-GLIBC%20version%202.31%20is%20too%20old%21%20Required-%202.32%20or%20higher.html</link><description>bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:32:53 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>2025零基础小白节点搭建 手把手教你搭建 人人都能学会 简简单单让你拥有目前最安全的节点</title><link>https://bagejiedian.github.io/post/2025-ling-ji-chu-xiao-bai-jie-dian-da-jian-%20-shou-ba-shou-jiao-ni-da-jian-%20-ren-ren-du-neng-xue-hui-%20-jian-jian-dan-dan-rang-ni-yong-you-mu-qian-zui-an-quan-de-jie-dian.html</link><description>1、购买vps 
+丽莎云
+https://lisahost.com/aff.php?aff=1461
+
+2、域名解析
+www.cloudflare.com
+
+3、FinalShell SSH工具下载
+https://www.hostbuf.com/t/988.html
+
+4、必要更新操作(Debian/Ubuntu)
+```PYTHON
+apt update -y &amp;&amp; apt install -y curl socat wget
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+```
+5、关闭防火墙
+```PYTHON
+sudo ufw disable
+```
+6、一键搭建脚本
+```PYTHON
+bash &lt;(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh)
+```
+找出延迟低的域名
+for d in ocsp2.apple.com d.impactradius-event.com cdn.bizible.com intelcorp.scene7.com j.6sc.co www.bing.com ts3.tc.mm.bing.net prod.pa.cdn.uis.awsstatic.com s0.awsstatic.com ce.mf.marsflag.com ; do t1=$(date +%s%3N); timeout 1 openssl s_client -connect $d:443 -servername $d &lt;/dev/null &amp;&gt;/dev/null &amp;&amp; t2=$(date +%s%3N) &amp;&amp; echo '$d: $((t2 - t1)) ms' || echo '$d: timeout'; done
+
+for d in cdn.userway.org s7mbrstream.scene7.com www.redditstatic.com polyfill-fastly.io assets-www.xbox.com ms-python.gallerycdn.vsassets.io j.6sc.co img-prod-cms-rt-microsoft-com.akamaized.net images.nvidia.com ts2.tc.mm.bing.net ; do t1=$(date +%s%3N); timeout 1 openssl s_client -connect $d:443 -servername $d &lt;/dev/null &amp;&gt;/dev/null &amp;&amp; t2=$(date +%s%3N) &amp;&amp; echo '$d: $((t2 - t1)) ms' || echo '$d: timeout'; done
+
+for d in ts2.tc.mm.bing.net ts4.tc.mm.bing.net iosapps.itunes.apple.com ce.mf.marsflag.com intelcorp.scene7.com vscjava.gallerycdn.vsassets.io publisher.liveperson.net s.go-mpulse.net ds-aksb-a.akamaihd.net res-1.cdn.office.net ; do t1=$(date +%s%3N); timeout 1 openssl s_client -connect $d:443 -servername $d &lt;/dev/null &amp;&gt;/dev/null &amp;&amp; t2=$(date +%s%3N) &amp;&amp; echo '$d: $((t2 - t1)) ms' || echo '$d: timeout'; done
+
+7、设置路径（特别需要注意：每次设置完之后，记得点击右上角的保存，很容易遗漏，没保存会导致连接不上）
+设置——TLS设置——入站管理——用户管理
+
+
+
+推荐代理工具
+Windows/Mac（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/7.12.7
+Android（NekoBox）：https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.3.9
+IOS/Mac（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
+
+。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/2025-ling-ji-chu-xiao-bai-jie-dian-da-jian-%20-shou-ba-shou-jiao-ni-da-jian-%20-ren-ren-du-neng-xue-hui-%20-jian-jian-dan-dan-rang-ni-yong-you-mu-qian-zui-an-quan-de-jie-dian.html</guid><pubDate>Sat, 19 Sep 2026 03:32:24 +0000</pubDate></item><item><title>3xui安装失败解决办法GLIBC version 2.31 is too old! Required: 2.32 or higher</title><link>https://bagejiedian.github.io/post/3xui-an-zhuang-shi-bai-jie-jue-ban-fa-GLIBC%20version%202.31%20is%20too%20old%21%20Required-%202.32%20or%20higher.html</link><description>bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 安装指定版本
 VERSION=v2.5.0 &amp;&amp; bash &lt;(curl -Ls 'https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh') $VERSION。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/3xui-an-zhuang-shi-bai-jie-jue-ban-fa-GLIBC%20version%202.31%20is%20too%20old%21%20Required-%202.32%20or%20higher.html</guid><pubDate>Sat, 19 Sep 2026 03:10:51 +0000</pubDate></item><item><title>2025XHTTP + Reality 完美结合 完美模仿网站流量 提高节点隐匿性 几乎不会被墙</title><link>https://bagejiedian.github.io/post/2025XHTTP%20%2B%20Reality%20-wan-mei-jie-he-%20-wan-mei-mo-fang-wang-zhan-liu-liang-%20-ti-gao-jie-dian-yin-ni-xing-%20-ji-hu-bu-hui-bei-qiang.html</link><description>XHTTP（传输方式） + Reality（协议） 完美模拟正常访问网站过程、全面提升隐匿性，突破检测，实现无痕访问！
 
