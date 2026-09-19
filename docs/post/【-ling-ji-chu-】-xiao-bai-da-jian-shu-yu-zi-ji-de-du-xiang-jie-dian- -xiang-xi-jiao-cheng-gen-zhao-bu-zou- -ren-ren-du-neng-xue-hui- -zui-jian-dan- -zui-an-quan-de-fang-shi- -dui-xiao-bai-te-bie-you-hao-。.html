@@ -10,101 +10,87 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="XHTTP（传输方式） + Reality（协议） 完美模拟正常访问网站过程、全面提升隐匿性，突破检测，实现无痕访问！
+<meta name="description" content="FinalShell SSH工具
+http://www.hostbuf.com/t/988.html
 
-1、购买vps
-丽莎云
-https://lisahost.com/aff.php?aff=1461
-六六云服原生ip
-https://666clouds.com/aff.php?aff=1128
-
-2、FinalShell SSH工具下载
-https://www.hostbuf.com/t/988.html
-
-3、必要更新操作(Debian/Ubuntu)
+更新系统
 ```PYTHON
 apt update -y && apt install -y curl socat wget
 ```
-*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+安装X-UI
+```PYTHON
+bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/956bf85bbac978d56c0e319c5fac2d6db7df9564/install.sh) 0.3.4.4
+```
+放行端口
+```PYTHON
+ufw allow 443
+ufw allow 4321
+ufw allow 80
+ufw allow  20944
+```
+BBR加速四合一 BBR Plus / 原版BBR / 魔改BBR一键脚本（Centos 7, Debian 8/9, Ubuntu 16/18 测试通过）
+```PYTHON
+wget -N --no-check-certificate 'https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh' && chmod +x tcp.sh && ./tcp.sh
+```
+各平台客户端
+Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
+Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 
-4、关闭防火墙
-```PYTHON
-sudo ufw disable
-```
-5、安装3xui
-3X-UI开源项目地址：https://github.com/MHSanaei/3x-ui
+.nip.io
+搭建vision节点申请证书
+x-ui
 
-一键安装依赖包
-```PYTHON
-apt update -y&&apt install -y curl&&apt install -y socat
-```
-一键搭建脚本
-```PYTHON
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
-```
-开启BBRv3加速
-```PYTHON
-bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/bbrv3.sh --ipv4)
-```
-6、配置节点
-SNI最佳推荐
-cdn.yahoo.com （与 yahoo.com 同属一家）
-www.microsoft.com （微软大流量站点）
-cdn.jsdelivr.net （常见的公共 CDN）
+Reality寻找适合的目标网站
+查询ASN：https://tools.ipip.net/as.php
 
-7、
-v2r客户端下载
-https://github.com/2dust/v2rayN/releases
-安卓下载
-https://github.com/Kejifaxian/welcome/。">
+寻找目标：https://fofa.info
+
+asn=='25820' && country=='US' && port=='443' && cert!='Let's Encrypt' && cert.issuer!='ZeroSSL' && status_code='200'
+
+检测端口是否被封
+https://tcp.ping.pe/。">
 <meta property="og:title" content="【零基础】小白搭建属于自己的独享节点 详细教程跟着步骤 人人都能学会 最简单 最安全的方式 对小白特别友好。">
-<meta property="og:description" content="XHTTP（传输方式） + Reality（协议） 完美模拟正常访问网站过程、全面提升隐匿性，突破检测，实现无痕访问！
+<meta property="og:description" content="FinalShell SSH工具
+http://www.hostbuf.com/t/988.html
 
-1、购买vps
-丽莎云
-https://lisahost.com/aff.php?aff=1461
-六六云服原生ip
-https://666clouds.com/aff.php?aff=1128
-
-2、FinalShell SSH工具下载
-https://www.hostbuf.com/t/988.html
-
-3、必要更新操作(Debian/Ubuntu)
+更新系统
 ```PYTHON
 apt update -y && apt install -y curl socat wget
 ```
-*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+安装X-UI
+```PYTHON
+bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/956bf85bbac978d56c0e319c5fac2d6db7df9564/install.sh) 0.3.4.4
+```
+放行端口
+```PYTHON
+ufw allow 443
+ufw allow 4321
+ufw allow 80
+ufw allow  20944
+```
+BBR加速四合一 BBR Plus / 原版BBR / 魔改BBR一键脚本（Centos 7, Debian 8/9, Ubuntu 16/18 测试通过）
+```PYTHON
+wget -N --no-check-certificate 'https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh' && chmod +x tcp.sh && ./tcp.sh
+```
+各平台客户端
+Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
+Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 
-4、关闭防火墙
-```PYTHON
-sudo ufw disable
-```
-5、安装3xui
-3X-UI开源项目地址：https://github.com/MHSanaei/3x-ui
+.nip.io
+搭建vision节点申请证书
+x-ui
 
-一键安装依赖包
-```PYTHON
-apt update -y&&apt install -y curl&&apt install -y socat
-```
-一键搭建脚本
-```PYTHON
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
-```
-开启BBRv3加速
-```PYTHON
-bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/bbrv3.sh --ipv4)
-```
-6、配置节点
-SNI最佳推荐
-cdn.yahoo.com （与 yahoo.com 同属一家）
-www.microsoft.com （微软大流量站点）
-cdn.jsdelivr.net （常见的公共 CDN）
+Reality寻找适合的目标网站
+查询ASN：https://tools.ipip.net/as.php
 
-7、
-v2r客户端下载
-https://github.com/2dust/v2rayN/releases
-安卓下载
-https://github.com/Kejifaxian/welcome/。">
+寻找目标：https://fofa.info
+
+asn=='25820' && country=='US' && port=='443' && cert!='Let's Encrypt' && cert.issuer!='ZeroSSL' && status_code='200'
+
+检测端口是否被封
+https://tcp.ping.pe/。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://bagejiedian.github.io/post/%E3%80%90-ling-ji-chu-%E3%80%91-xiao-bai-da-jian-shu-yu-zi-ji-de-du-xiang-jie-dian-%20-xiang-xi-jiao-cheng-gen-zhao-bu-zou-%20-ren-ren-du-neng-xue-hui-%20-zui-jian-dan-%20-zui-an-quan-de-fang-shi-%20-dui-xiao-bai-te-bie-you-hao-%E3%80%82.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/137091274?v=4&size=64">
@@ -175,37 +161,32 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>XHTTP（传输方式） + Reality（协议） 完美模拟正常访问网站过程、全面提升隐匿性，突破检测，实现无痕访问！</p>
-<p>1、购买vps<br>
-丽莎云<br>
-<a href="https://lisahost.com/aff.php?aff=1461" rel="nofollow">https://lisahost.com/aff.php?aff=1461</a><br>
-六六云服原生ip<br>
-<a href="https://666clouds.com/aff.php?aff=1128" rel="nofollow">https://666clouds.com/aff.php?aff=1128</a></p>
-<p>2、FinalShell SSH工具下载<br>
-<a href="https://www.hostbuf.com/t/988.html" rel="nofollow">https://www.hostbuf.com/t/988.html</a></p>
-<p>3、必要更新操作(Debian/Ubuntu)</p>
+<div class="markdown-body" id="postBody"><p>FinalShell SSH工具<br>
+<a href="http://www.hostbuf.com/t/988.html" rel="nofollow">http://www.hostbuf.com/t/988.html</a></p>
+<p>更新系统</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">update</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-s1">curl</span> <span class="pl-s1">socat</span> <span class="pl-s1">wget</span></pre></div>
-<p>*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget</p>
-<p>4、关闭防火墙</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">sudo</span> <span class="pl-s1">ufw</span> <span class="pl-s1">disable</span></pre></div>
-<p>5、安装3xui<br>
-3X-UI开源项目地址：<a href="https://github.com/MHSanaei/3x-ui">https://github.com/MHSanaei/3x-ui</a></p>
-<p>一键安装依赖包</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">update</span> <span class="pl-c1">-</span><span class="pl-s1">y</span><span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span><span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-s1">curl</span><span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span><span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-s1">socat</span></pre></div>
-<p>一键搭建脚本</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">bash</span> <span class="pl-c1">&lt;</span>(<span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-v">Ls</span> <span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">raw</span>.<span class="pl-c1">githubusercontent</span>.<span class="pl-c1">com</span><span class="pl-c1">/</span><span class="pl-s1">mhsanaei</span><span class="pl-c1">/</span><span class="pl-c1">3</span><span class="pl-s1">x</span><span class="pl-c1">-</span><span class="pl-s1">ui</span><span class="pl-c1">/</span><span class="pl-s1">master</span><span class="pl-c1">/</span><span class="pl-s1">install</span>.<span class="pl-c1">sh</span>)</pre></div>
-<p>开启BBRv3加速</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">bash</span> <span class="pl-c1">&lt;</span>(<span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-s1">s</span> <span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">raw</span>.<span class="pl-c1">githubusercontent</span>.<span class="pl-c1">com</span><span class="pl-c1">/</span><span class="pl-s1">opiran</span><span class="pl-c1">-</span><span class="pl-s1">club</span><span class="pl-c1">/</span><span class="pl-c1">VPS</span><span class="pl-c1">-</span><span class="pl-v">Optimizer</span><span class="pl-c1">/</span><span class="pl-s1">main</span><span class="pl-c1">/</span><span class="pl-s1">bbrv3</span>.<span class="pl-c1">sh</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-s1">ipv4</span>)</pre></div>
-<p>6、配置节点<br>
-SNI最佳推荐<br>
-cdn.yahoo.com （与 yahoo.com 同属一家）<br>
-<a href="http://www.microsoft.com" rel="nofollow">www.microsoft.com</a> （微软大流量站点）<br>
-cdn.jsdelivr.net （常见的公共 CDN）</p>
-<p>7、<br>
-v2r客户端下载<br>
-<a href="https://github.com/2dust/v2rayN/releases">https://github.com/2dust/v2rayN/releases</a><br>
-安卓下载<br>
-<a href="https://github.com/Kejifaxian/welcome/">https://github.com/Kejifaxian/welcome/</a></p></div>
+<p>安装X-UI</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">bash</span> <span class="pl-c1">&lt;</span>(<span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-v">Ls</span> <span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">raw</span>.<span class="pl-c1">githubusercontent</span>.<span class="pl-c1">com</span><span class="pl-c1">/</span><span class="pl-v">FranzKafkaYu</span><span class="pl-c1">/</span><span class="pl-s1">x</span><span class="pl-c1">-</span><span class="pl-s1">ui</span><span class="pl-c1">/</span><span class="pl-c1">956</span><span class="pl-s1">bf85bbac978d56c0e319c5fac2d6db7df9564</span><span class="pl-c1">/</span><span class="pl-s1">install</span>.<span class="pl-c1">sh</span>) <span class="pl-c1">0.3</span><span class="pl-c1">.4</span><span class="pl-c1">.4</span></pre></div>
+<p>放行端口</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">443</span>
+<span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">4321</span>
+<span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">80</span>
+<span class="pl-s1">ufw</span> <span class="pl-s1">allow</span>  <span class="pl-c1">20944</span></pre></div>
+<p>BBR加速四合一 BBR Plus / 原版BBR / 魔改BBR一键脚本（Centos 7, Debian 8/9, Ubuntu 16/18 测试通过）</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">wget</span> <span class="pl-c1">-</span><span class="pl-c1">N</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-s1">no</span><span class="pl-c1">-</span><span class="pl-s1">check</span><span class="pl-c1">-</span><span class="pl-s1">certificate</span> <span class="pl-s">"https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">chmod</span> <span class="pl-c1">+</span><span class="pl-s1">x</span> <span class="pl-s1">tcp</span>.<span class="pl-c1">sh</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> .<span class="pl-c1">/</span><span class="pl-c1">tcp</span>.<span class="pl-c1">sh</span></pre></div>
+<p>各平台客户端<br>
+Windows（v2rayN）：<a href="https://github.com/2dust/v2rayN/releases/tag/6.23">https://github.com/2dust/v2rayN/releases/tag/6.23</a><br>
+Android（v2rayNG）：<a href="https://github.com/2dust/v2rayNG/releases/tag/1.8.5">https://github.com/2dust/v2rayNG/releases/tag/1.8.5</a><br>
+IOS（shadowrocket）：<a href="https://apps.apple.com/app/shadowrocket/id932747118" rel="nofollow">https://apps.apple.com/app/shadowrocket/id932747118</a></p>
+<p>.nip.io<br>
+搭建vision节点申请证书<br>
+x-ui</p>
+<p>Reality寻找适合的目标网站<br>
+查询ASN：<a href="https://tools.ipip.net/as.php" rel="nofollow">https://tools.ipip.net/as.php</a></p>
+<p>寻找目标：<a href="https://fofa.info" rel="nofollow">https://fofa.info</a></p>
+<p>asn=="25820" &amp;&amp; country=="US" &amp;&amp; port=="443" &amp;&amp; cert!="Let's Encrypt" &amp;&amp; cert.issuer!="ZeroSSL" &amp;&amp; status_code="200"</p>
+<p>检测端口是否被封<br>
+<a href="https://tcp.ping.pe/" rel="nofollow">https://tcp.ping.pe/</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
