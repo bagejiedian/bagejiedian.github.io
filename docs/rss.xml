@@ -1,5 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:01:43 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>保姆级Rustdesk自建服务器教程 手机电脑都能用 碾压向日葵 todesk</title><link>https://bagejiedian.github.io/post/bao-mu-ji-Rustdesk-zi-jian-fu-wu-qi-jiao-cheng-%20-shou-ji-dian-nao-du-neng-yong-%20-nian-ya-xiang-ri-kui-%20todesk.html</link><description>Rustdesk的官网及Github地址
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:02:30 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>保姆级rustdesk编译及封装教程 更加方便的使用远程 完全碾压向日葵 todesk</title><link>https://bagejiedian.github.io/post/bao-mu-ji-rustdesk-bian-yi-ji-feng-zhuang-jiao-cheng-%20-geng-jia-fang-bian-de-shi-yong-yuan-cheng-%20-wan-quan-nian-ya-xiang-ri-kui-%20todesk.html</link><description>编译Rustdesk客户端
+一、fork Rustdesk的客户端的项目
+https://github.com/rustdesk/rustdesk
+fork到仓库里
+Actions 同意
+二、利用Github Actions在线编译
+找到完整工作流
+Full Flutter Cl
+开始工作流 取消工作流
+
+三、填入我们服务器信息及key再次编译
+路径：rustdesk/libs/hbb_common/src/config.rs
+
+大概在103行左右
+填写ip key
+修改好后点保存 
+
+四、修改让源码编译后，自动上传客服端供给我们下载
+路径：.github/workflows/flutter-ci.yml
+改为true
+
+五、重新开启编译
+编译完成，滑到最下面可以看到我们编译好的客户端了
+
+六、Windows客户端封装为一个EXE文件
+需要用到winrar老牌的解压软件
+https://www.winrar.com.cn/
+1.选择所有文件添加到压缩文件
+2.勾选“创建自解压格式压缩文件”
+3.选择“高级”选项卡，单击“自解压选项按钮”
+4.在“设置”选项卡中，“解压后运行”一栏填上解压后运行的文件
+5.在“模式”选项卡中，选中“解压到临时文件夹”和“全部隐藏”
+6.在“更新”选项卡中，选中“覆盖所有文件”
+7.在“文本和图标”选项卡中，在“加载自解压文件图标”处，选择我们自己制作好的ICON图标
+
+。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/bao-mu-ji-rustdesk-bian-yi-ji-feng-zhuang-jiao-cheng-%20-geng-jia-fang-bian-de-shi-yong-yuan-cheng-%20-wan-quan-nian-ya-xiang-ri-kui-%20todesk.html</guid><pubDate>Sat, 19 Sep 2026 03:01:59 +0000</pubDate></item><item><title>保姆级Rustdesk自建服务器教程 手机电脑都能用 碾压向日葵 todesk</title><link>https://bagejiedian.github.io/post/bao-mu-ji-Rustdesk-zi-jian-fu-wu-qi-jiao-cheng-%20-shou-ji-dian-nao-du-neng-yong-%20-nian-ya-xiang-ri-kui-%20todesk.html</link><description>Rustdesk的官网及Github地址
 官网：https://rustdesk.com/zh
 Github开源项目：https://github.com/rustdesk/rustdesk
 Github服务端页面：https://github.com/rustdesk/rustdesk-server
