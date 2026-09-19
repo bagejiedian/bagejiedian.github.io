@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 02:22:54 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>一键搭建Clash-Trojan节点 无需订阅链接转换 v2r也可以使用</title><link>https://bagejiedian.github.io/post/yi-jian-da-jian-Clash-Trojan-jie-dian-%20-wu-xu-ding-yue-lian-jie-zhuan-huan-%20v2r-ye-ke-yi-shi-yong.html</link><description>1.购买云服https://lisahost.com/aff.php?aff=1461
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 02:35:45 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>一键搭建Clash-Trojan节点 无需订阅链接转换 v2r也可以使用</title><link>https://bagejiedian.github.io/post/yi-jian-da-jian-Clash-Trojan-jie-dian-%20-wu-xu-ding-yue-lian-jie-zhuan-huan-%20v2r-ye-ke-yi-shi-yong.html</link><description>1.购买云服https://lisahost.com/aff.php?aff=1461
  解析域名cloudflare.com
 
 2.输入一键安装脚本
@@ -51,7 +51,53 @@ bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/insta
 hysteria2一键安装
 ```PYTHON
 wget -N --no-check-certificate https://raw.githubusercontent.com/flame1ce/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh &amp;&amp; bash hysteria.sh
-```。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/li-sa-zhu-ji-yuan-sheng-ip-da-jian-duo-ge-jie-dian-ce-shi-su-du.html</guid><pubDate>Sat, 19 Sep 2026 02:18:11 +0000</pubDate></item><item><title>Clash配置文件转换工具，小白就可以学的自建节点链接转换工具，完整版搭建教程，防止节点泄露，保护节点安全</title><link>https://bagejiedian.github.io/post/Clash-pei-zhi-wen-jian-zhuan-huan-gong-ju-%EF%BC%8C-xiao-bai-jiu-ke-yi-xue-de-zi-jian-jie-dian-lian-jie-zhuan-huan-gong-ju-%EF%BC%8C-wan-zheng-ban-da-jian-jiao-cheng-%EF%BC%8C-fang-zhi-jie-dian-xie-lu-%EF%BC%8C-bao-hu-jie-dian-an-quan.html</link><description>丽莎主机 原生ip 48小时可退
+```。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/li-sa-zhu-ji-yuan-sheng-ip-da-jian-duo-ge-jie-dian-ce-shi-su-du.html</guid><pubDate>Sat, 19 Sep 2026 02:18:11 +0000</pubDate></item><item><title>【零基础】小白搭建属于自己的独享节点 详细教程跟着步骤 人人都能学会 最简单 最安全的方式 对小白特别友好。</title><link>https://bagejiedian.github.io/post/%E3%80%90-ling-ji-chu-%E3%80%91-xiao-bai-da-jian-shu-yu-zi-ji-de-du-xiang-jie-dian-%20-xiang-xi-jiao-cheng-gen-zhao-bu-zou-%20-ren-ren-du-neng-xue-hui-%20-zui-jian-dan-%20-zui-an-quan-de-fang-shi-%20-dui-xiao-bai-te-bie-you-hao-%E3%80%82.html</link><description>XHTTP（传输方式） + Reality（协议） 完美模拟正常访问网站过程、全面提升隐匿性，突破检测，实现无痕访问！
+
+1、购买vps
+丽莎云
+https://lisahost.com/aff.php?aff=1461
+六六云服原生ip
+https://666clouds.com/aff.php?aff=1128
+
+2、FinalShell SSH工具下载
+https://www.hostbuf.com/t/988.html
+
+3、必要更新操作(Debian/Ubuntu)
+```PYTHON
+apt update -y &amp;&amp; apt install -y curl socat wget
+```
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+
+4、关闭防火墙
+```PYTHON
+sudo ufw disable
+```
+5、安装3xui
+3X-UI开源项目地址：https://github.com/MHSanaei/3x-ui
+
+一键安装依赖包
+```PYTHON
+apt update -y&amp;&amp;apt install -y curl&amp;&amp;apt install -y socat
+```
+一键搭建脚本
+```PYTHON
+bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+```
+开启BBRv3加速
+```PYTHON
+bash &lt;(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/bbrv3.sh --ipv4)
+```
+6、配置节点
+SNI最佳推荐
+cdn.yahoo.com （与 yahoo.com 同属一家）
+www.microsoft.com （微软大流量站点）
+cdn.jsdelivr.net （常见的公共 CDN）
+
+7、
+v2r客户端下载
+https://github.com/2dust/v2rayN/releases
+安卓下载
+https://github.com/Kejifaxian/welcome/。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/%E3%80%90-ling-ji-chu-%E3%80%91-xiao-bai-da-jian-shu-yu-zi-ji-de-du-xiang-jie-dian-%20-xiang-xi-jiao-cheng-gen-zhao-bu-zou-%20-ren-ren-du-neng-xue-hui-%20-zui-jian-dan-%20-zui-an-quan-de-fang-shi-%20-dui-xiao-bai-te-bie-you-hao-%E3%80%82.html</guid><pubDate>Sat, 19 Sep 2026 02:14:05 +0000</pubDate></item><item><title>Clash配置文件转换工具，小白就可以学的自建节点链接转换工具，完整版搭建教程，防止节点泄露，保护节点安全</title><link>https://bagejiedian.github.io/post/Clash-pei-zhi-wen-jian-zhuan-huan-gong-ju-%EF%BC%8C-xiao-bai-jiu-ke-yi-xue-de-zi-jian-jie-dian-lian-jie-zhuan-huan-gong-ju-%EF%BC%8C-wan-zheng-ban-da-jian-jiao-cheng-%EF%BC%8C-fang-zhi-jie-dian-xie-lu-%EF%BC%8C-bao-hu-jie-dian-an-quan.html</link><description>丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
 https://666clouds.com/aff.php?aff=1128
