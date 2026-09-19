@@ -1,5 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 02:58:30 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>一键搭建h ui面板实现 快速添加hysteria2节点 拯救垃圾vps 多用户管理 定制出站</title><link>https://bagejiedian.github.io/post/yi-jian-da-jian-h%20ui-mian-ban-shi-xian-%20-kuai-su-tian-jia-hysteria2-jie-dian-%20-zheng-jiu-la-ji-vps%20-duo-yong-hu-guan-li-%20-ding-zhi-chu-zhan.html</link><description>1、购买vps
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:00:31 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>一键搭建3x-ui面板 持续更新 功能更强大 安全性更高 安装BBR3v速度更快</title><link>https://bagejiedian.github.io/post/yi-jian-da-jian-3x-ui-mian-ban-%20-chi-xu-geng-xin-%20-gong-neng-geng-qiang-da-%20-an-quan-xing-geng-gao-%20-an-zhuang-BBR3v-su-du-geng-kuai.html</link><description>3X-UI开源项目地址：https://github.com/MHSanaei/3x-ui
+
+1、购买vps
+丽莎主机 原生ip 48小时可退
+https://lisahost.com/aff.php?aff=1461
+六六云服原生ip
+https://666clouds.com/aff.php?aff=1128
+vultr云服按时计费
+https://www.vultr.com/?ref=9580630
+
+2、购买域名
+解析域名dash.cloudflare.com
+看之前的视频https://youtu.be/FwqVKZB8cOs?si=17rrwT0cVbXMMOa9
+
+3、FinalShell SSH工具下载
+https://www.hostbuf.com/t/988.html
+
+4、必要更新操作(Debian/Ubuntu)
+apt update -y &amp;&amp; apt install -y curl socat wget
+
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+
+5、关闭防火墙
+sudo ufw disable
+
+6、安装3xui
+一键安装依赖包
+apt update -y&amp;&amp;apt install -y curl&amp;&amp;apt install -y socat
+
+一键搭建脚本
+bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+
+开启BBRv3加速
+bash &lt;(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/bbrv3.sh --ipv4)
+
+7、
+v2r客户端下载
+https://github.com/2dust/v2rayN/releases
+安卓下载
+https://github.com/Kejifaxian/welcome/
+
+。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/yi-jian-da-jian-3x-ui-mian-ban-%20-chi-xu-geng-xin-%20-gong-neng-geng-qiang-da-%20-an-quan-xing-geng-gao-%20-an-zhuang-BBR3v-su-du-geng-kuai.html</guid><pubDate>Sat, 19 Sep 2026 03:00:04 +0000</pubDate></item><item><title>一键搭建h ui面板实现 快速添加hysteria2节点 拯救垃圾vps 多用户管理 定制出站</title><link>https://bagejiedian.github.io/post/yi-jian-da-jian-h%20ui-mian-ban-shi-xian-%20-kuai-su-tian-jia-hysteria2-jie-dian-%20-zheng-jiu-la-ji-vps%20-duo-yong-hu-guan-li-%20-ding-zhi-chu-zhan.html</link><description>1、购买vps
 六六云服原生ip
 https://666clouds.com/aff.php?aff=1128
 vultr云服按时计费
