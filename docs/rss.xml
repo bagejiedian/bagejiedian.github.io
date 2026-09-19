@@ -1,5 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:05:59 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>sing box一键搭建vless、vmess、hysteria2、tuic协议节点，让搭建节点更简单</title><link>https://bagejiedian.github.io/post/sing%20box-yi-jian-da-jian-vless%E3%80%81vmess%E3%80%81hysteria2%E3%80%81tuic-xie-yi-jie-dian-%EF%BC%8C-rang-da-jian-jie-dian-geng-jian-dan.html</link><description>一键搭建，支持vless、vmess、hysteria2、tuic协议
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:06:48 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>2025一键搭建Marzban科学上网面板 支持多种协议 避免暴漏服务器信息 更加安全</title><link>https://bagejiedian.github.io/post/2025-yi-jian-da-jian-Marzban-ke-xue-shang-wang-mian-ban-%20-zhi-chi-duo-zhong-xie-yi-%20-bi-mian-bao-lou-fu-wu-qi-xin-xi-%20-geng-jia-an-quan.html</link><description>1.购买服务器
+
+ 2、解析域名
+cloudflare.com
+
+3、用FinalShell连接云服
+4、更新系统
+apt update -y &amp;&amp; apt upgrade -y
+
+5、关闭防火墙
+ufw disable
+
+6、安装git
+apt install git -y
+
+7、一键申请SSL证书
+git clone https://github.com/slobys/SSL-Renewal.git /tmp/acme &amp;&amp; mv /tmp/acme/* /root &amp;&amp; bash acme_2.0.sh
+
+8、一键安装Marzban脚本
+bash -c '$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)' @ install
+
+9、打开 cd /opt/marzban
+修改配置文件
+把本地证书路径映射到容器里面
+添加管理员和密码
+marzban cli admin create --sudo
+
+
+重启marzban
+marzban restart
+
+
+打开Marzban面板：https://ma.131481:8008/dashboard/
+
+节点配置编辑器 
+https://azavaxhuman.github.io/MarzbanInboundGenerator/。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/2025-yi-jian-da-jian-Marzban-ke-xue-shang-wang-mian-ban-%20-zhi-chi-duo-zhong-xie-yi-%20-bi-mian-bao-lou-fu-wu-qi-xin-xi-%20-geng-jia-an-quan.html</guid><pubDate>Sat, 19 Sep 2026 03:06:21 +0000</pubDate></item><item><title>sing box一键搭建vless、vmess、hysteria2、tuic协议节点，让搭建节点更简单</title><link>https://bagejiedian.github.io/post/sing%20box-yi-jian-da-jian-vless%E3%80%81vmess%E3%80%81hysteria2%E3%80%81tuic-xie-yi-jie-dian-%EF%BC%8C-rang-da-jian-jie-dian-geng-jian-dan.html</link><description>一键搭建，支持vless、vmess、hysteria2、tuic协议
 
 1、购买服务器
 丽萨主机 原生ip 48小时可退
