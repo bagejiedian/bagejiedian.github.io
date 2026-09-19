@@ -1,5 +1,54 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 02:53:22 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>一键搭建sui新科学上网面板，保姆级教程，适合小白 可视化操作，支持更多的协议</title><link>https://bagejiedian.github.io/post/yi-jian-da-jian-sui-xin-ke-xue-shang-wang-mian-ban-%EF%BC%8C-bao-mu-ji-jiao-cheng-%EF%BC%8C-shi-he-xiao-bai-%20-ke-shi-hua-cao-zuo-%EF%BC%8C-zhi-chi-geng-duo-de-xie-yi.html</link><description>1、购买vps 
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 02:55:02 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>Xray、Tuic、hysteria2、sing-box八合一一键脚本搭建 科学上网节点</title><link>https://bagejiedian.github.io/post/Xray%E3%80%81Tuic%E3%80%81hysteria2%E3%80%81sing-box-ba-he-yi-yi-jian-jiao-ben-da-jian-%20-ke-xue-shang-wang-jie-dian.html</link><description>1、购买vps
+六六云服原生ip
+https://666clouds.com/aff.php?aff=1128
+vultr云服按时计费
+https://www.vultr.com/?ref=9580630
+2、
+购买域名
+解析域名dash.cloudflare.com
+看之前的视频https://youtu.be/FwqVKZB8cOs?si=17rrwT0cVbXMMOa9
+
+3、必要更新操作(Debian/Ubuntu)
+apt update -y &amp;&amp; apt install -y curl socat wget
+
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+
+3、FinalShell SSH工具下载
+https://www.hostbuf.com/t/988.html
+
+5、关闭防火墙
+sudo ufw disable
+
+6、一键搭建脚本
+wget -P /root -N --no-check-certificate 'https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh' &amp;&amp; chmod 700 /root/install.sh &amp;&amp; /root/install.sh
+1.安装
+2.sing-box
+域名
+n.是否使用 DNS
+（1.letsencrypt（默认））
+
+随机uuid 随机端口 随机路径 使用域名y 不使用路径n
+
+7、调出面板
+vasma
+
+（7.用户管理）
+（2.查看订阅）
+ 随机端口
+n
+8、调出面板
+vasma
+（18.安装bbr）
+（11. 使用BBR+FQ加速）
+（21. 系统配置优化）
+
+v2r客户端下载
+https://github.com/2dust/v2rayN/releases
+安卓下载
+https://github.com/Kejifaxian/welcome/
+
+开源项目地址https://github.com/mack-a/v2ray-agent。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/Xray%E3%80%81Tuic%E3%80%81hysteria2%E3%80%81sing-box-ba-he-yi-yi-jian-jiao-ben-da-jian-%20-ke-xue-shang-wang-jie-dian.html</guid><pubDate>Sat, 19 Sep 2026 02:54:38 +0000</pubDate></item><item><title>一键搭建sui新科学上网面板，保姆级教程，适合小白 可视化操作，支持更多的协议</title><link>https://bagejiedian.github.io/post/yi-jian-da-jian-sui-xin-ke-xue-shang-wang-mian-ban-%EF%BC%8C-bao-mu-ji-jiao-cheng-%EF%BC%8C-shi-he-xiao-bai-%20-ke-shi-hua-cao-zuo-%EF%BC%8C-zhi-chi-geng-duo-de-xie-yi.html</link><description>1、购买vps 
 丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
