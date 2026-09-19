@@ -1,5 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:07:36 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>2025一键搭建Clash-Trojan节点 无需订阅链接转换 v2r也可以使用</title><link>https://bagejiedian.github.io/post/2025-yi-jian-da-jian-Clash-Trojan-jie-dian-%20-wu-xu-ding-yue-lian-jie-zhuan-huan-%20v2r-ye-ke-yi-shi-yong.html</link><description>1.购买云服https://lisahost.com/aff.php?aff=1461
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 19 Sep 2026 03:08:29 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>2025XHTTP + Reality 完美结合 完美模仿网站流量 提高节点隐匿性 几乎不会被墙</title><link>https://bagejiedian.github.io/post/2025XHTTP%20%2B%20Reality%20-wan-mei-jie-he-%20-wan-mei-mo-fang-wang-zhan-liu-liang-%20-ti-gao-jie-dian-yin-ni-xing-%20-ji-hu-bu-hui-bei-qiang.html</link><description>XHTTP（传输方式） + Reality（协议） 完美模拟正常访问网站过程、全面提升隐匿性，突破检测，实现无痕访问！
+
+1、购买vps
+丽莎云
+https://lisahost.com/aff.php?aff=1461
+六六云服原生ip
+https://666clouds.com/aff.php?aff=1128
+
+2、FinalShell SSH工具下载
+https://www.hostbuf.com/t/988.html
+
+3、必要更新操作(Debian/Ubuntu)
+```PYTHON
+apt update -y &amp;&amp; apt install -y curl socat wget
+```
+*注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
+
+4、关闭防火墙
+```PYTHON
+sudo ufw disable
+```
+5、安装3xui
+3X-UI开源项目地址：https://github.com/MHSanaei/3x-ui
+
+一键安装依赖包
+```PYTHON
+apt update -y&amp;&amp;apt install -y curl&amp;&amp;apt install -y socat
+```
+一键搭建脚本
+```PYTHON
+bash &lt;(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+```
+开启BBRv3加速
+```PYTHON
+bash &lt;(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/bbrv3.sh --ipv4)
+```
+6、配置节点
+SNI最佳推荐
+cdn.yahoo.com （与 yahoo.com 同属一家）
+www.microsoft.com （微软大流量站点）
+cdn.jsdelivr.net （常见的公共 CDN）
+
+7、
+v2r客户端下载
+https://github.com/2dust/v2rayN/releases
+安卓下载
+https://github.com/Kejifaxian/welcome/。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/2025XHTTP%20%2B%20Reality%20-wan-mei-jie-he-%20-wan-mei-mo-fang-wang-zhan-liu-liang-%20-ti-gao-jie-dian-yin-ni-xing-%20-ji-hu-bu-hui-bei-qiang.html</guid><pubDate>Sat, 19 Sep 2026 03:08:04 +0000</pubDate></item><item><title>2025一键搭建Clash-Trojan节点 无需订阅链接转换 v2r也可以使用</title><link>https://bagejiedian.github.io/post/2025-yi-jian-da-jian-Clash-Trojan-jie-dian-%20-wu-xu-ding-yue-lian-jie-zhuan-huan-%20v2r-ye-ke-yi-shi-yong.html</link><description>1.购买云服https://lisahost.com/aff.php?aff=1461
  解析域名cloudflare.com
 
 2.输入一键安装脚本
