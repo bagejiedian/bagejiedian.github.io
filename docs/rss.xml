@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Mon, 12 Oct 2026 13:38:07 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Mon, 12 Oct 2026 22:39:52 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
 ```PYTHON
 sudo adduser bage
 ```
@@ -571,7 +571,47 @@ sudo ufw disable
 Debian系统
 curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh &amp;&amp; bash quick_start.sh
 
-。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/da-jian-1panel%20-ke-shi-hua-yun-wei-mian-ban-%20-bi-bao-ta-geng-hao-yong-de-kai-yuan-%20Linux%20-mian-ban-%20-bing-yan-shi-da-jian-wang-zhan.html</guid><pubDate>Sat, 19 Sep 2026 02:51:47 +0000</pubDate></item><item><title>快速搭建哪吒监控面板详细教程 轻松管理多台vps 云服务器 完全开源免费 可视化面板 使用方便</title><link>https://bagejiedian.github.io/post/kuai-su-da-jian-na-zha-jian-kong-mian-ban-xiang-xi-jiao-cheng-%20-qing-song-guan-li-duo-tai-vps%20-yun-fu-wu-qi-%20-wan-quan-kai-yuan-mian-fei-%20-ke-shi-hua-mian-ban-%20-shi-yong-fang-bian.html</link><description>1.准备一台VPS 一个域名
+。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/da-jian-1panel%20-ke-shi-hua-yun-wei-mian-ban-%20-bi-bao-ta-geng-hao-yong-de-kai-yuan-%20Linux%20-mian-ban-%20-bing-yan-shi-da-jian-wang-zhan.html</guid><pubDate>Sat, 19 Sep 2026 02:51:47 +0000</pubDate></item><item><title>Hysteria2一键安装教程 抢占宽带，垃圾线路的救星！大幅提升稳定性！抗封能力非常强</title><link>https://bagejiedian.github.io/post/Hysteria2-yi-jian-an-zhuang-jiao-cheng-%20-qiang-zhan-kuan-dai-%EF%BC%8C-la-ji-xian-lu-de-jiu-xing-%EF%BC%81-da-fu-ti-sheng-wen-ding-xing-%EF%BC%81-kang-feng-neng-li-fei-chang-qiang.html</link><description>1、官方开源项目地址
+https://github.com/apernet/hysteria
+
+2、购买服务器
+丽莎主机 原生ip 48小时可退
+https://lisahost.com/aff.php?aff=1461
+六六云服 原生ip 48小时可退
+https://666clouds.com/aff.php?aff=1128
+vultr云服
+https://www.vultr.com/?ref=9580630
+
+3、必要更新操作(Debian/Ubuntu)
+apt update -y &amp;&amp; apt install -y curl socat wget
+
+4、放行端口
+ufw allow 443
+ufw allow 80
+ufw allow 5678
+ufw allow 
+5、一键安装脚本
+wget -N --no-check-certificate https://raw.githubusercontent.com/flame1ce/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh &amp;&amp; bash hysteria.sh
+
+www.bing.com  #伪装网址
+
+启动hysteria或者设置hysteria开机自启
+启动：systemctl start hysteria-server.service
+查看状态：systemctl status hysteria-server.service
+开机自启：systemctl enable hysteria-server.service
+重启：systemctl restart hysteria-server.service
+
+客户端配置
+下载客户端配置文件：https://github.com/apernet/hysteria/releases
+把下载好的文件替换到v2rayN的这个目录下：\zz_v2rayN-With-Core-SelfContained\zz_v2rayN-With-Core-SelfContained\bin\hysteria
+
+
+FinalShell下载
+www.hostbuf.com
+各平台客户端
+Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
+Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/Hysteria2-yi-jian-an-zhuang-jiao-cheng-%20-qiang-zhan-kuan-dai-%EF%BC%8C-la-ji-xian-lu-de-jiu-xing-%EF%BC%81-da-fu-ti-sheng-wen-ding-xing-%EF%BC%81-kang-feng-neng-li-fei-chang-qiang.html</guid><pubDate>Sat, 19 Sep 2026 02:50:55 +0000</pubDate></item><item><title>快速搭建哪吒监控面板详细教程 轻松管理多台vps 云服务器 完全开源免费 可视化面板 使用方便</title><link>https://bagejiedian.github.io/post/kuai-su-da-jian-na-zha-jian-kong-mian-ban-xiang-xi-jiao-cheng-%20-qing-song-guan-li-duo-tai-vps%20-yun-fu-wu-qi-%20-wan-quan-kai-yuan-mian-fei-%20-ke-shi-hua-mian-ban-%20-shi-yong-fang-bian.html</link><description>1.准备一台VPS 一个域名
 https://www.vultr.com/?ref=9580630
 2.解析两条记录 neza   ip 
 cloudflare
