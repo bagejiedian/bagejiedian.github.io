@@ -233,11 +233,11 @@ who 会显示当前谁在登录你的服务器。确保只有你自己的 IP（�
 <p>检查 sudo 权限：</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">sudo</span> <span class="pl-c1">-</span><span class="pl-s1">l</span> <span class="pl-c1">-</span><span class="pl-c1">U</span> <span class="pl-s1">bage</span></pre></div>
 <p>切换用户：</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">su</span> <span class="pl-c1">-</span> <span class="pl-s1">bage</span></pre></div>
-<p>测试：</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">su</span> <span class="pl-s1">bage</span></pre></div>
+<p>行使sudo 权限</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">sudo</span> <span class="pl-s1">whoami</span></pre></div>
-<p>预期：</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">root</span></pre></div>
+<p>要切换到 root 用户</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">sudo</span> <span class="pl-c1">-</span><span class="pl-s1">i</span></pre></div>
 <p>第七步：禁用 root 密码登录<br>
 禁用密码登录，改用密钥登录（终极方案）<br>
 在本地生成密钥对，把公钥传回服务器，然后在 /etc/ssh/sshd_config 里设置 PasswordAuthentication no。这样黑客哪怕有你的密码也登录不了。</p></div>

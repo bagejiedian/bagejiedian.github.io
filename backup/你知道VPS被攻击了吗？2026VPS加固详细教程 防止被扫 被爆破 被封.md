@@ -191,15 +191,15 @@ sudo -l -U bage
 ```
 切换用户：
 ```PYTHON
-su - bage
+su bage
 ```
-测试：
+行使sudo 权限
 ```PYTHON
 sudo whoami
 ```
-预期：
+要切换到 root 用户
 ```PYTHON
-root
+sudo -i
 ```
 第七步：禁用 root 密码登录
 禁用密码登录，改用密钥登录（终极方案）
