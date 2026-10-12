@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Mon, 12 Oct 2026 13:24:22 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(上)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-shang-%29.html</link><description>第一步：检查vps
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Mon, 12 Oct 2026 13:38:07 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
+```PYTHON
+sudo adduser bage
+```
+ 需要修改新用户名
+将用户加入 sudo 组：
+```PYTHON
+sudo usermod -aG sudo bage
+```
+检查用户：
+```PYTHON
+id bage
+```
+检查 sudo 权限：
+```PYTHON
+sudo -l -U bage
+```
+切换用户：
+```PYTHON
+su bage
+```
+行使sudo 权限
+```PYTHON
+sudo whoami
+```
+要切换到 root 用户
+```PYTHON
+sudo -i
+```
+第七步：禁用 root 密码登录，生成密钥
+步骤 1:打开powershell，执行：
+```PYTHON
+ssh-keygen -t ed25519 -C 'my-vps-key'
+```
+确认密钥文件路径在 PowerShell 中运行以下命令，进入你的 SSH 密钥目录：
+```PYTHON
+cd $HOME\.ssh
+```
+查看目录内容，确认公钥文件存在：
+ls
+你应该看到 id_ed25519 (私钥) 和 id_ed25519.pub (公钥) 两个文件。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</guid><pubDate>Mon, 12 Oct 2026 13:37:38 +0000</pubDate></item><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(上)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-shang-%29.html</link><description>第一步：检查vps
 1.查看ip有没有被攻击
 ```PYTHON
 journalctl -u ssh | grep 'Failed password'
