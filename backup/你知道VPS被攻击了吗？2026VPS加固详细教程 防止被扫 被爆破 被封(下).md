@@ -43,7 +43,9 @@ ls
 步骤 2: 复制公钥内容
 我们将使用 cat 命令来读取公钥文件的内容，然后复制它。
 读取公钥内容（请使用你实际的公钥文件名）：
+```PYTHON
 cat id_ed25519.pub
+```
 PowerShell 会显示一长串字符，例如：
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICe3hCj...wNn...d5 your_email@example.com
 请将显示出的这一整行内容全部复制下来。
@@ -57,8 +59,9 @@ chmod 700 ~/.ssh
 ```
 2. 将公钥内容追加到 authorized_keys 文件中
 我们使用 echo 命令配合单引号，确保内容完全不被修改
+```PYTHON
 echo '公钥' >>~/.ssh/authorized_keys
-
+```
 3. 设置 authorized_keys 文件权限 (600)
 ```PYTHON
 chmod 600 ~/.ssh/authorized_keys
