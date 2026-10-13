@@ -85,3 +85,18 @@ ChallengeResponseAuthentication no
 ```PYTHON
 sudo systemctl restart ssh
 ```
+把 root 的 SSH 钥匙“复制”给 bage：
+```PYTHON
+# 1. 创建 .ssh 目录
+mkdir -p /home/bage/.ssh
+
+# 2. 把 root 的授权公钥复制过去
+cp /root/.ssh/authorized_keys /home/bage/.ssh/authorized_keys
+
+# 3. 把目录和文件的所有权给 bage 用户
+chown -R bage:bage /home/bage/.ssh
+
+# 4. 修改权限（极其关键，权限不对 SSH 会拒绝）
+chmod 700 /home/bage/.ssh
+chmod 600 /home/bage/.ssh/authorized_keys
+```

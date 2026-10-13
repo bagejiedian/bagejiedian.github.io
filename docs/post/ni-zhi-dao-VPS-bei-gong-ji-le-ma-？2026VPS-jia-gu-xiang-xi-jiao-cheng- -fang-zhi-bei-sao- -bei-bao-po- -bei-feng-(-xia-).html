@@ -224,7 +224,20 @@ PasswordAuthentication no<br>
 交互登录<br>
 ChallengeResponseAuthentication no<br>
 重启ssh服务</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">sudo</span> <span class="pl-s1">systemctl</span> <span class="pl-s1">restart</span> <span class="pl-s1">ssh</span></pre></div></div>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">sudo</span> <span class="pl-s1">systemctl</span> <span class="pl-s1">restart</span> <span class="pl-s1">ssh</span></pre></div>
+<p>把 root 的 SSH 钥匙“复制”给 bage：</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-c"># 1. 创建 .ssh 目录</span>
+<span class="pl-s1">mkdir</span> <span class="pl-c1">-</span><span class="pl-s1">p</span> <span class="pl-c1">/</span><span class="pl-s1">home</span><span class="pl-c1">/</span><span class="pl-s1">bage</span><span class="pl-c1">/</span>.<span class="pl-c1">ssh</span>
+
+<span class="pl-c"># 2. 把 root 的授权公钥复制过去</span>
+<span class="pl-s1">cp</span> <span class="pl-c1">/</span><span class="pl-s1">root</span><span class="pl-c1">/</span>.<span class="pl-c1">ssh</span><span class="pl-c1">/</span><span class="pl-s1">authorized_keys</span> <span class="pl-c1">/</span><span class="pl-s1">home</span><span class="pl-c1">/</span><span class="pl-s1">bage</span><span class="pl-c1">/</span>.<span class="pl-c1">ssh</span><span class="pl-c1">/</span><span class="pl-s1">authorized_keys</span>
+
+<span class="pl-c"># 3. 把目录和文件的所有权给 bage 用户</span>
+<span class="pl-s1">chown</span> <span class="pl-c1">-</span><span class="pl-c1">R</span> <span class="pl-s1">bage</span>:<span class="pl-s1">bage</span> <span class="pl-c1">/</span><span class="pl-s1">home</span><span class="pl-c1">/</span><span class="pl-s1">bage</span><span class="pl-c1">/</span>.<span class="pl-c1">ssh</span>
+
+<span class="pl-c"># 4. 修改权限（极其关键，权限不对 SSH 会拒绝）</span>
+<span class="pl-s1">chmod</span> <span class="pl-c1">700</span> <span class="pl-c1">/</span><span class="pl-s1">home</span><span class="pl-c1">/</span><span class="pl-s1">bage</span><span class="pl-c1">/</span>.<span class="pl-c1">ssh</span>
+<span class="pl-s1">chmod</span> <span class="pl-c1">600</span> <span class="pl-c1">/</span><span class="pl-s1">home</span><span class="pl-c1">/</span><span class="pl-s1">bage</span><span class="pl-c1">/</span>.<span class="pl-c1">ssh</span><span class="pl-c1">/</span><span class="pl-s1">authorized_keys</span></pre></div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
