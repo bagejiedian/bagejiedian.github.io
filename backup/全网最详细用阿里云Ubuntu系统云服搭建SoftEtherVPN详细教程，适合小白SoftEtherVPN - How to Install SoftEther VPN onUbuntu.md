@@ -1,3 +1,5 @@
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
 丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
@@ -6,7 +8,6 @@ https://666clouds.com/aff.php?aff=1128
 https://www.dogyun.com/?ref=bage13
 搬瓦工 速度快
 https://bandwagonhost.com/aff.php?aff=75423
-
 vultr云服按时计费
 https://www.vultr.com/?ref=9580630
 Softether Vpn下载中心
