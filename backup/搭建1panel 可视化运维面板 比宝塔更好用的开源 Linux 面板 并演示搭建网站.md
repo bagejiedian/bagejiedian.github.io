@@ -1,6 +1,8 @@
 官网https://1panel.cn
 
 1，vps一台
+莱卡云原生IP 24小时全额退 3天内按已使用天数折（性价比高）
+https://www.lcayun.com/aff/BOWLAKCX
 丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
