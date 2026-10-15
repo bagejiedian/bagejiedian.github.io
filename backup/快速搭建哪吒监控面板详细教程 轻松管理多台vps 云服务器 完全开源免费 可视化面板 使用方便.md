@@ -1,4 +1,6 @@
 1.准备一台VPS 一个域名
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
 https://www.vultr.com/?ref=9580630
 2.解析两条记录 neza   ip 
 cloudflare

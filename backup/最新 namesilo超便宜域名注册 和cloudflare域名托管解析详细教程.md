@@ -6,6 +6,8 @@ www.cloudflare.com
 美国地址生成器
 https://www.dizhishengcheng.com
 
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
 丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
