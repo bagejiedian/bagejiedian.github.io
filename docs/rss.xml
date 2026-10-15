@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Thu, 15 Oct 2026 06:54:26 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Thu, 15 Oct 2026 06:55:09 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
 ```PYTHON
 sudo adduser bage
 ```
@@ -575,6 +575,8 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 https://github.com/apernet/hysteria
 
 2、购买服务器
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
 丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
