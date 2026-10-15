@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Thu, 15 Oct 2026 06:49:24 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Thu, 15 Oct 2026 06:49:58 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
 ```PYTHON
 sudo adduser bage
 ```
@@ -1014,6 +1014,8 @@ vultr云服按时计费
 https://www.vultr.com/?ref=9580630。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/zui-xin-%20namesilo-chao-bian-yi-yu-ming-zhu-ce-%20-he-cloudflare-yu-ming-tuo-guan-jie-xi-xiang-xi-jiao-cheng.html</guid><pubDate>Fri, 18 Sep 2026 03:45:17 +0000</pubDate></item><item><title>最新Reality协议节点搭建号称永不被封的协议 无须域名和证书的Reality协议+Vision流控</title><link>https://bagejiedian.github.io/post/zui-xin-Reality-xie-yi-jie-dian-da-jian-hao-cheng-yong-bu-bei-feng-de-xie-yi-%20-wu-xu-yu-ming-he-zheng-shu-de-Reality-xie-yi-%2BVision-liu-kong.html</link><description>一键搭建VPS教程，最新的VLESS Vision和VLESS Reality防止VPS端口封禁
 
 1，一台境外VPS主流系统
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
 vult云服按时计费注册链接
 https://www.vultr.com/?ref=9580630
 

@@ -1,6 +1,8 @@
 一键搭建VPS教程，最新的VLESS Vision和VLESS Reality防止VPS端口封禁
 
 1，一台境外VPS主流系统
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
 vult云服按时计费注册链接
 https://www.vultr.com/?ref=9580630
 
