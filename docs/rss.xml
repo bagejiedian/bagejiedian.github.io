@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Thu, 15 Oct 2026 06:50:36 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Thu, 15 Oct 2026 06:51:24 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
 ```PYTHON
 sudo adduser bage
 ```
@@ -813,6 +813,8 @@ asn=='25820' &amp;&amp; country=='US' &amp;&amp; port=='443' &amp;&amp; cert!='L
 https://tcp.ping.pe/。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/%E3%80%90-ling-ji-chu-%E3%80%91-xiao-bai-da-jian-shu-yu-zi-ji-de-du-xiang-jie-dian-%20-xiang-xi-jiao-cheng-gen-zhao-bu-zou-%20-ren-ren-du-neng-xue-hui-%20-zui-jian-dan-%20-zui-an-quan-de-fang-shi-%20-dui-xiao-bai-te-bie-you-hao-%E3%80%82.html</guid><pubDate>Sat, 19 Sep 2026 02:14:05 +0000</pubDate></item><item><title>小白都能学会的反代神器NginxProxyManager搭建 保护网站 可视化管理 功能强大</title><link>https://bagejiedian.github.io/post/xiao-bai-du-neng-xue-hui-de-fan-dai-shen-qi-NginxProxyManager-da-jian-%20-bao-hu-wang-zhan-%20-ke-shi-hua-guan-li-%20-gong-neng-qiang-da.html</link><description>项目地址：
 https://nginxproxymanager.com
 1，vps一台
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
 丽莎主机 原生ip 48小时可退
 https://lisahost.com/aff.php?aff=1461
 六六云服 原生ip 48小时可退
