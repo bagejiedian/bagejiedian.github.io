@@ -1,4 +1,6 @@
 购买vps
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
 https://www.vultr.com/?ref=9580630
 购买域名
 解析域名
