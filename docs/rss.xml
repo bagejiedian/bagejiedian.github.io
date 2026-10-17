@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Thu, 15 Oct 2026 19:34:13 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sat, 17 Oct 2026 03:48:55 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>零基础纯小白一键快速搭建节点教程</title><link>https://bagejiedian.github.io/post/ling-ji-chu-chun-xiao-bai-yi-jian-kuai-su-da-jian-jie-dian-jiao-cheng.html</link><description>一：购买云服
+莱卡云（性价比高）24小时全额退 3天内按已使用天数折算
+https://www.lcayun.com/aff/BOWLAKCX
+
+二：下载FinalShell
+https://www.hostbuf.com
+
+三、Debian / Ubuntu 系统安装 sudo curl 必要的运行环境
+```PYTHON
+apt update &amp;&amp; apt install -y sudo curl
+```
+四：一键搭建代码：sing-box 全家桶节点
+特点：基于 sing-box 核心，支持 Reality、Hysteria2、TUIC、Trojan 等多种协议，无需域名，功能强大且配置灵活。</description><guid isPermaLink="true">https://bagejiedian.github.io/post/ling-ji-chu-chun-xiao-bai-yi-jian-kuai-su-da-jian-jie-dian-jiao-cheng.html</guid><pubDate>Sat, 17 Oct 2026 03:48:35 +0000</pubDate></item><item><title>你知道VPS被攻击了吗？2026VPS加固详细教程 防止被扫 被爆破 被封(下)</title><link>https://bagejiedian.github.io/post/ni-zhi-dao-VPS-bei-gong-ji-le-ma-%EF%BC%9F2026VPS-jia-gu-xiang-xi-jiao-cheng-%20-fang-zhi-bei-sao-%20-bei-bao-po-%20-bei-feng-%28-xia-%29.html</link><description>第六步：创建普通 sudo 管理用户bage（换成自己的用户名）
 ```PYTHON
 sudo adduser bage
 ```
