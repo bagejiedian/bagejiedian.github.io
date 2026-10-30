@@ -6,7 +6,7 @@ https://www.lcayun.com/aff/BOWLAKCX
 
 关闭代理检测IP是否被墙
 ```PYTHON
-ping -n 6 自己的ip
+ping 自己的ip -t
 ```
 二：解析域名：
 https://dash.cloudflare.com
