@@ -43,6 +43,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/afeinet/sni-test/main/sni.sh)
 苹果 电脑/手机 小火箭
 1.美区apple ID获取：
 https://acclwp.acceboy.com/
+优惠码：BAGE88
 IP检查手段
 常规属性
 https://ping0.cc
