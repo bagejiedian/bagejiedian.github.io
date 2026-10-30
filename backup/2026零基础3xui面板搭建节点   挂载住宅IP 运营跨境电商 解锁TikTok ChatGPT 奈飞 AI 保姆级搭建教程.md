@@ -2,7 +2,7 @@
 莱卡云住宅IP
 https://www.lcayun.com/aff/BOWLAKCX
 
-购买两个IP 一个速度快 一个双ISP住宅IP
+购买两个VPS 一个速度快 一个双ISP住宅IP
 
 关闭代理检测IP是否被墙
 ```PYTHON
