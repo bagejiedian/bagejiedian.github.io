@@ -37,7 +37,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 ```
 3X-UI项目地址
 https://github.com/MHSanaei/3x-ui
+
 五：中专机搭建节点  落地机搭建代理
+Mixed 协议来同时兼容 SOCKS 和 HTTP
 
 六：挂载住宅IP快
 
