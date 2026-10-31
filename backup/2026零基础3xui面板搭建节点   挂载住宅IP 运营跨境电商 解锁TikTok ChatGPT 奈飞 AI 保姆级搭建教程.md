@@ -75,7 +75,8 @@ https://chatgpt.com/
 
 https://gemini.google.com/app
 
-https://claude.ai（风控超严）
+https://claude.ai
+（风控超严）
 
 流媒体：
 https://www.netflix.com
