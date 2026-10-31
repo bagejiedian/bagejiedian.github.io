@@ -57,12 +57,13 @@ https://acclwp.acceboy.com/
 优惠码：BAGE88
 
 IP检查手段
-去程测试
-[www.itdog.cn](https://www.itdog.cn/traceroute/)
-https://tools.ipip.net/traceroute.php
-常规属性
+延迟测试
+https://www.itdog.cn/ping
+
+常规属性ISP测试
 https://ping0.cc
 https://ipinfo.io
+
 欺诈检查
 https://scamalytics.com/ip
 
