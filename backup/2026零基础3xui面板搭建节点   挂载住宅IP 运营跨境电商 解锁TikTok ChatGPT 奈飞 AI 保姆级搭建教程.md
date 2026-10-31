@@ -1,11 +1,16 @@
 一：购买云服 中专VPS  落地双ISP住宅VPS
-莱卡云住宅IP
+莱卡云住宅双ISP
 https://www.lcayun.com/aff/BOWLAKCX
-原生ip代理
+
+双ISP代理
 ippeak
 https://www.ippeak.com/signup?code=02951F
+丽莎主机 原生ip 48小时可退
+https://lisahost.com/aff.php?aff=1461
+六六云服 原生ip 48小时可退
+https://666clouds.com/aff.php?aff=1128
 
-搬瓦工 速度快
+搬瓦工 速度极快
 https://bandwagonhost.com/aff.php?aff=75423
 
 关闭代理检测IP是否开通
