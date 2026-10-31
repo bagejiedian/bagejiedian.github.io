@@ -57,8 +57,8 @@ https://acclwp.acceboy.com/
 优惠码：BAGE88
 
 IP检查手段
-延迟测试
-https://www.itdog.cn/ping
+延迟测试 去程线路
+https://www.itdog.cn
 
 常规属性ISP测试
 https://ping0.cc
