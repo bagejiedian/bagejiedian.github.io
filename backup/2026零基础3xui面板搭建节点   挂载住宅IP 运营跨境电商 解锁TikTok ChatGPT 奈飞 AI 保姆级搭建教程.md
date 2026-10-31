@@ -1,8 +1,9 @@
-一：购买云服
+一：购买云服 中专VPS  落地双ISP住宅VPS
 莱卡云住宅IP
 https://www.lcayun.com/aff/BOWLAKCX
 
-购买两个VPS 一个速度快 一个双ISP住宅IP
+搬瓦工 速度快
+https://bandwagonhost.com/aff.php?aff=75423
 
 关闭代理检测IP是否被墙
 按Win+r
