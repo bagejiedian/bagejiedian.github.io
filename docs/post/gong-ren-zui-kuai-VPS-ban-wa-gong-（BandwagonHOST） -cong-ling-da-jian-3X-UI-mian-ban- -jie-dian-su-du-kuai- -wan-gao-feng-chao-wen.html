@@ -16,6 +16,8 @@ https://www.hostbuf.com
 2、下载代理软件：各平台客户端
 Windows（v2rayN）：https://github.com/2dust/v2rayNG
 Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+-----------------------：https://github.com/2dust/v2rayNG/releases/tag/1.10.18
+Hysteria2节点（NekoBox）：https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 MacOS/Windows（Clash Verge） ：https://github.com/clash-verge-rev/clash-verge-rev/releases
 IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 苹果 电脑/手机 小火箭
@@ -47,7 +49,6 @@ apt update && apt install -y sudo curl
 2、安装 防火墙UFW
 首先更新软件包列表并安装 UFW
 ```PYTHON
-apt update
 apt install ufw -y
 ```
 3、放行目标端口
@@ -74,7 +75,7 @@ apt install -y iptables iptables-persistent
 ```
 7、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)
 ```PYTHON
-iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 8443
+iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 443
 ```
 8、固化防火墙规则
 为了防止服务器重启后刚才敲的规则丢失
@@ -99,6 +100,8 @@ https://www.hostbuf.com
 2、下载代理软件：各平台客户端
 Windows（v2rayN）：https://github.com/2dust/v2rayNG
 Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+-----------------------：https://github.com/2dust/v2rayNG/releases/tag/1.10.18
+Hysteria2节点（NekoBox）：https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 MacOS/Windows（Clash Verge） ：https://github.com/clash-verge-rev/clash-verge-rev/releases
 IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 苹果 电脑/手机 小火箭
@@ -130,7 +133,6 @@ apt update && apt install -y sudo curl
 2、安装 防火墙UFW
 首先更新软件包列表并安装 UFW
 ```PYTHON
-apt update
 apt install ufw -y
 ```
 3、放行目标端口
@@ -157,7 +159,7 @@ apt install -y iptables iptables-persistent
 ```
 7、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)
 ```PYTHON
-iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 8443
+iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 443
 ```
 8、固化防火墙规则
 为了防止服务器重启后刚才敲的规则丢失
@@ -251,6 +253,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 2、下载代理软件：各平台客户端<br>
 Windows（v2rayN）：<a href="https://github.com/2dust/v2rayNG">https://github.com/2dust/v2rayNG</a><br>
 Android（v2rayNG）：<a href="https://github.com/2dust/v2rayNG/releases/tag/1.8.5">https://github.com/2dust/v2rayNG/releases/tag/1.8.5</a><br>
+-----------------------：<a href="https://github.com/2dust/v2rayNG/releases/tag/1.10.18">https://github.com/2dust/v2rayNG/releases/tag/1.10.18</a><br>
+Hysteria2节点（NekoBox）：<a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases">https://github.com/MatsuriDayo/NekoBoxForAndroid/releases</a><br>
 MacOS/Windows（Clash Verge） ：<a href="https://github.com/clash-verge-rev/clash-verge-rev/releases">https://github.com/clash-verge-rev/clash-verge-rev/releases</a><br>
 IOS（shadowrocket）：<a href="https://apps.apple.com/app/shadowrocket/id932747118" rel="nofollow">https://apps.apple.com/app/shadowrocket/id932747118</a><br>
 苹果 电脑/手机 小火箭<br>
@@ -272,8 +276,7 @@ IOS（shadowrocket）：<a href="https://apps.apple.com/app/shadowrocket/id93274
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">update</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-s1">sudo</span> <span class="pl-s1">curl</span></pre></div>
 <p>2、安装 防火墙UFW<br>
 首先更新软件包列表并安装 UFW</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">update</span>
-<span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-s1">ufw</span> <span class="pl-c1">-</span><span class="pl-s1">y</span></pre></div>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-s1">ufw</span> <span class="pl-c1">-</span><span class="pl-s1">y</span></pre></div>
 <p>3、放行目标端口</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">22</span><span class="pl-c1">/</span><span class="pl-s1">tcp</span>
 <span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">58888</span><span class="pl-c1">/</span><span class="pl-s1">tcp</span>
@@ -289,7 +292,7 @@ IOS（shadowrocket）：<a href="https://apps.apple.com/app/shadowrocket/id93274
 <p>6、安装防火墙工具Debian / Ubuntu 系统安装防火墙工具</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-s1">iptables</span> <span class="pl-s1">iptables</span><span class="pl-c1">-</span><span class="pl-s1">persistent</span></pre></div>
 <p>7、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">iptables</span> <span class="pl-c1">-</span><span class="pl-s1">t</span> <span class="pl-s1">nat</span> <span class="pl-c1">-</span><span class="pl-c1">A</span> <span class="pl-c1">PREROUTING</span> <span class="pl-c1">-</span><span class="pl-s1">p</span> <span class="pl-s1">udp</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-s1">dport</span> <span class="pl-c1">48888</span>:<span class="pl-c1">50000</span> <span class="pl-c1">-</span><span class="pl-s1">j</span> <span class="pl-c1">REDIRECT</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-s1">to</span><span class="pl-c1">-</span><span class="pl-s1">ports</span> <span class="pl-c1">8443</span></pre></div>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">iptables</span> <span class="pl-c1">-</span><span class="pl-s1">t</span> <span class="pl-s1">nat</span> <span class="pl-c1">-</span><span class="pl-c1">A</span> <span class="pl-c1">PREROUTING</span> <span class="pl-c1">-</span><span class="pl-s1">p</span> <span class="pl-s1">udp</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-s1">dport</span> <span class="pl-c1">48888</span>:<span class="pl-c1">50000</span> <span class="pl-c1">-</span><span class="pl-s1">j</span> <span class="pl-c1">REDIRECT</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-s1">to</span><span class="pl-c1">-</span><span class="pl-s1">ports</span> <span class="pl-c1">443</span></pre></div>
 <p>8、固化防火墙规则<br>
 为了防止服务器重启后刚才敲的规则丢失</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">netfilter</span><span class="pl-c1">-</span><span class="pl-s1">persistent</span> <span class="pl-s1">save</span></pre></div>

@@ -4,6 +4,8 @@ https://www.hostbuf.com
 2、下载代理软件：各平台客户端
 Windows（v2rayN）：https://github.com/2dust/v2rayNG
 Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+-----------------------：https://github.com/2dust/v2rayNG/releases/tag/1.10.18
+Hysteria2节点（NekoBox）：https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 MacOS/Windows（Clash Verge） ：https://github.com/clash-verge-rev/clash-verge-rev/releases
 IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 苹果 电脑/手机 小火箭
@@ -35,7 +37,6 @@ apt update && apt install -y sudo curl
 2、安装 防火墙UFW
 首先更新软件包列表并安装 UFW
 ```PYTHON
-apt update
 apt install ufw -y
 ```
 3、放行目标端口
@@ -62,7 +63,7 @@ apt install -y iptables iptables-persistent
 ```
 7、将端口跳跃的 48888端口 到 50000端口 的 UDP 流量重定向到指定端口 (IPv4)
 ```PYTHON
-iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 8443
+iptables -t nat -A PREROUTING -p udp --dport 48888:50000 -j REDIRECT --to-ports 443
 ```
 8、固化防火墙规则
 为了防止服务器重启后刚才敲的规则丢失
