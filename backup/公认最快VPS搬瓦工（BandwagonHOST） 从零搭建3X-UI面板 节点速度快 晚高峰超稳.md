@@ -75,6 +75,8 @@ netfilter-persistent save
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v3.7.0
 ```
 五：导入节点测试
+节点测速
+https://www.speedtest.net
 检查您自己的IP地址
 https://whoer.net/zh
 IP检测
