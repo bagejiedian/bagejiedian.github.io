@@ -86,10 +86,6 @@ netfilter-persistent save
 ```PYTHON
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v3.7.0
 ```
-安装 BBR 网络拥塞控制
-```PYTHON
-sh -c 'echo 'net.core.default_qdisc=fq' >> /etc/sysctl.conf' && sh -c 'echo 'net.ipv4.tcp_congestion_control=bbr' >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
-```
 五：导入节点测试
 检查您自己的IP地址
 https://whoer.net/zh
@@ -173,10 +169,6 @@ netfilter-persistent save
 四、安装 3X - UI 面板
 ```PYTHON
 bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v3.7.0
-```
-安装 BBR 网络拥塞控制
-```PYTHON
-sh -c 'echo 'net.core.default_qdisc=fq' >> /etc/sysctl.conf' && sh -c 'echo 'net.ipv4.tcp_congestion_control=bbr' >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
 ```
 五：导入节点测试
 检查您自己的IP地址
@@ -306,8 +298,6 @@ IOS（shadowrocket）：<a href="https://apps.apple.com/app/shadowrocket/id93274
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">netfilter</span><span class="pl-c1">-</span><span class="pl-s1">persistent</span> <span class="pl-s1">save</span></pre></div>
 <p>四、安装 3X - UI 面板</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">bash</span> <span class="pl-c1">&lt;</span>(<span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-v">Ls</span> <span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">raw</span>.<span class="pl-c1">githubusercontent</span>.<span class="pl-c1">com</span><span class="pl-c1">/</span><span class="pl-s1">mhsanaei</span><span class="pl-c1">/</span><span class="pl-c1">3</span><span class="pl-s1">x</span><span class="pl-c1">-</span><span class="pl-s1">ui</span><span class="pl-c1">/</span><span class="pl-s1">master</span><span class="pl-c1">/</span><span class="pl-s1">install</span>.<span class="pl-c1">sh</span>) <span class="pl-s1">v3</span><span class="pl-c1">.7</span><span class="pl-c1">.0</span></pre></div>
-<p>安装 BBR 网络拥塞控制</p>
-<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">sh</span> <span class="pl-c1">-</span><span class="pl-s1">c</span> <span class="pl-s">'echo "net.core.default_qdisc=fq" &gt;&gt; /etc/sysctl.conf'</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">sh</span> <span class="pl-c1">-</span><span class="pl-s1">c</span> <span class="pl-s">'echo "net.ipv4.tcp_congestion_control=bbr" &gt;&gt; /etc/sysctl.conf'</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">sysctl</span> <span class="pl-c1">-</span><span class="pl-s1">p</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">lsmod</span> <span class="pl-c1">|</span> <span class="pl-s1">grep</span> <span class="pl-s1">bbr</span></pre></div>
 <p>五：导入节点测试<br>
 检查您自己的IP地址<br>
 <a href="https://whoer.net/zh" rel="nofollow">https://whoer.net/zh</a><br>
