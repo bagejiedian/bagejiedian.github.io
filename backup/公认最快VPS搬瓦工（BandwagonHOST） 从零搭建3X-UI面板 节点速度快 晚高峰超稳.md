@@ -25,7 +25,13 @@ https://www.lcayun.com/aff/BOWLAKCX
 ```PYTHON
 ping 自己的ip -t
 ```
-3、延迟测试 去程线路
+3、解析域名
+https://dash.cloudflare.com
+解析域名教程
+https://www.youtube.com/watch?v=lenNw3DwNco&t=6s
+https://www.youtube.com/watch?v=FwqVKZB8cOs&t=327s
+
+4、延迟测试 去程线路
 https://www.itdog.cn
 
 三：FinalShell连接vps
