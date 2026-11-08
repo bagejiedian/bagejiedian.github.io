@@ -79,5 +79,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 sh -c 'echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf' && sh -c 'echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
 ```
 五：导入节点测试
-
+检查您自己的IP地址
+https://whoer.net/zh
+IP检测
+https://ping0.cc/
 六：挂载双ISP住宅IP
+https://github.com/bagejiedian/bagejiedian.github.io/issues/34
