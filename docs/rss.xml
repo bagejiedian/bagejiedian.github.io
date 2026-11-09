@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Sun, 08 Nov 2026 11:56:51 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>公认最快VPS搬瓦工（BandwagonHOST） 从零搭建3X-UI面板 节点速度快 晚高峰超稳</title><link>https://bagejiedian.github.io/post/gong-ren-zui-kuai-VPS-ban-wa-gong-%EF%BC%88BandwagonHOST%EF%BC%89%20-cong-ling-da-jian-3X-UI-mian-ban-%20-jie-dian-su-du-kuai-%20-wan-gao-feng-chao-wen.html</link><description>一：准备工作下载工具
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>八哥的博客</title><link>https://bagejiedian.github.io</link><description>我是八哥，分享节点搭建教程的博主</description><copyright>八哥的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/137091274?v=4&amp;size=64</url><title>avatar</title><link>https://bagejiedian.github.io</link></image><lastBuildDate>Mon, 09 Nov 2026 03:01:56 +0000</lastBuildDate><managingEditor>八哥的博客</managingEditor><ttl>60</ttl><webMaster>八哥的博客</webMaster><item><title>公认最快VPS搬瓦工（BandwagonHOST） 从零搭建3X-UI面板 节点速度快 晚高峰超稳</title><link>https://bagejiedian.github.io/post/gong-ren-zui-kuai-VPS-ban-wa-gong-%EF%BC%88BandwagonHOST%EF%BC%89%20-cong-ling-da-jian-3X-UI-mian-ban-%20-jie-dian-su-du-kuai-%20-wan-gao-feng-chao-wen.html</link><description>一：准备工作下载工具
 1、下载FinalShell（连接vps）
 https://www.hostbuf.com
 2、下载代理软件：各平台客户端
@@ -17,9 +17,6 @@ https://acclwp.acceboy.com/
 二：购买云服
 1、搬瓦工 速度极快 30天内可退
 https://bandwagonhost.com/aff.php?aff=75423
-
-莱卡云 价格便宜 3天可退
-https://www.lcayun.com/aff/BOWLAKCX
 
 2、关闭代理检测IP是否开通
 按Win+r

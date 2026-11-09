@@ -17,9 +17,6 @@ https://acclwp.acceboy.com/
 1、搬瓦工 速度极快 30天内可退
 https://bandwagonhost.com/aff.php?aff=75423
 
-莱卡云 价格便宜 3天可退
-https://www.lcayun.com/aff/BOWLAKCX
-
 2、关闭代理检测IP是否开通
 按Win+r
 ```PYTHON
