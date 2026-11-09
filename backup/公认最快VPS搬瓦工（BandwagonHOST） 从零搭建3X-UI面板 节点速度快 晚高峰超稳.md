@@ -85,4 +85,5 @@ https://whoer.net/zh
 IP检测
 https://ping0.cc/
 六：挂载双ISP住宅IP
+https://www.youtube.com/watch?v=jLL_twUIZZA&t=12s
 https://github.com/bagejiedian/bagejiedian.github.io/issues/34
