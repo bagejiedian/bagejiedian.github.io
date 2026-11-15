@@ -46,8 +46,9 @@ apt update && apt install -y sudo curl
 ```
 
 2、部署新版Hiddify面板
+```PYTHON
 bash <(curl -fsSL https://i.hiddify.com/release)
-
+```
 Hiddify项目地址
 https://github.com/hiddify/Hiddify-Manager
 
