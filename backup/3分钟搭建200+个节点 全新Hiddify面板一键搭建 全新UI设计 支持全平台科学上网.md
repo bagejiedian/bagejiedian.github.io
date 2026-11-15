@@ -13,6 +13,9 @@ IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 https://acclwp.acceboy.com/
 优惠码：BAGE88
 
+下载工具教程：
+https://www.youtube.com/watch?v=xp_NCDGQtYQ
+
 二：购买云服
 1、搬瓦工 速度极快 30天内可退
 https://bandwagonhost.com/aff.php?aff=75423
