@@ -56,15 +56,36 @@ https://www.itdog.cn
 ```PYTHON
 apt update && apt install -y sudo curl
 ```
-
-2、部署新版Hiddify面板
+2、安装 防火墙UFW
+首先更新软件包列表并安装 UFW
+```PYTHON
+apt install ufw -y
+```
+3、放行目标端口
+```PYTHON
+ufw allow 22/tcp
+ufw allow 1237/tcp
+ufw allow 443/udp
+ufw allow 80/udp
+```
+4、启用防火墙
+激活 UFW 以使规则生效：
+```PYTHON
+ufw enable
+```
+5、验证配置结果
+最后，检查防火墙的状态和当前生效的规则：
+```PYTHON
+ufw status
+```
+6、部署新版Hiddify面板
 ```PYTHON
 bash <(curl -fsSL https://i.hiddify.com/release)
 ```
 Hiddify项目地址
 https://github.com/hiddify/Hiddify-Manager
 
-安装 BBR 网络拥塞控制
+7、安装 BBR 网络拥塞控制
 ```PYTHON
 sh -c 'echo 'net.core.default_qdisc=fq' >> /etc/sysctl.conf' && sh -c 'echo 'net.ipv4.tcp_congestion_control=bbr' >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
 ```
@@ -116,15 +137,36 @@ https://www.itdog.cn
 ```PYTHON
 apt update && apt install -y sudo curl
 ```
-
-2、部署新版Hiddify面板
+2、安装 防火墙UFW
+首先更新软件包列表并安装 UFW
+```PYTHON
+apt install ufw -y
+```
+3、放行目标端口
+```PYTHON
+ufw allow 22/tcp
+ufw allow 1237/tcp
+ufw allow 443/udp
+ufw allow 80/udp
+```
+4、启用防火墙
+激活 UFW 以使规则生效：
+```PYTHON
+ufw enable
+```
+5、验证配置结果
+最后，检查防火墙的状态和当前生效的规则：
+```PYTHON
+ufw status
+```
+6、部署新版Hiddify面板
 ```PYTHON
 bash <(curl -fsSL https://i.hiddify.com/release)
 ```
 Hiddify项目地址
 https://github.com/hiddify/Hiddify-Manager
 
-安装 BBR 网络拥塞控制
+7、安装 BBR 网络拥塞控制
 ```PYTHON
 sh -c 'echo 'net.core.default_qdisc=fq' >> /etc/sysctl.conf' && sh -c 'echo 'net.ipv4.tcp_congestion_control=bbr' >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
 ```
@@ -234,11 +276,25 @@ IOS（shadowrocket）：<a href="https://apps.apple.com/app/shadowrocket/id93274
 <p>三：FinalShell连接vps</p>
 <p>1、Debian / Ubuntu 系统安装 sudo curl 必要的运行环境</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">update</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-c1">-</span><span class="pl-s1">y</span> <span class="pl-s1">sudo</span> <span class="pl-s1">curl</span></pre></div>
-<p>2、部署新版Hiddify面板</p>
+<p>2、安装 防火墙UFW<br>
+首先更新软件包列表并安装 UFW</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">apt</span> <span class="pl-s1">install</span> <span class="pl-s1">ufw</span> <span class="pl-c1">-</span><span class="pl-s1">y</span></pre></div>
+<p>3、放行目标端口</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">22</span><span class="pl-c1">/</span><span class="pl-s1">tcp</span>
+<span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">1237</span><span class="pl-c1">/</span><span class="pl-s1">tcp</span>
+<span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">443</span><span class="pl-c1">/</span><span class="pl-s1">udp</span>
+<span class="pl-s1">ufw</span> <span class="pl-s1">allow</span> <span class="pl-c1">80</span><span class="pl-c1">/</span><span class="pl-s1">udp</span></pre></div>
+<p>4、启用防火墙<br>
+激活 UFW 以使规则生效：</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">ufw</span> <span class="pl-s1">enable</span></pre></div>
+<p>5、验证配置结果<br>
+最后，检查防火墙的状态和当前生效的规则：</p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">ufw</span> <span class="pl-s1">status</span></pre></div>
+<p>6、部署新版Hiddify面板</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">bash</span> <span class="pl-c1">&lt;</span>(<span class="pl-s1">curl</span> <span class="pl-c1">-</span><span class="pl-s1">fsSL</span> <span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">i</span>.<span class="pl-c1">hiddify</span>.<span class="pl-c1">com</span><span class="pl-c1">/</span><span class="pl-s1">release</span>)</pre></div>
 <p>Hiddify项目地址<br>
 <a href="https://github.com/hiddify/Hiddify-Manager">https://github.com/hiddify/Hiddify-Manager</a></p>
-<p>安装 BBR 网络拥塞控制</p>
+<p>7、安装 BBR 网络拥塞控制</p>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">sh</span> <span class="pl-c1">-</span><span class="pl-s1">c</span> <span class="pl-s">'echo "net.core.default_qdisc=fq" &gt;&gt; /etc/sysctl.conf'</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">sh</span> <span class="pl-c1">-</span><span class="pl-s1">c</span> <span class="pl-s">'echo "net.ipv4.tcp_congestion_control=bbr" &gt;&gt; /etc/sysctl.conf'</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">sysctl</span> <span class="pl-c1">-</span><span class="pl-s1">p</span> <span class="pl-c1">&amp;</span><span class="pl-c1">&amp;</span> <span class="pl-s1">lsmod</span> <span class="pl-c1">|</span> <span class="pl-s1">grep</span> <span class="pl-s1">bbr</span></pre></div>
 <p>五：导入节点测试</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>

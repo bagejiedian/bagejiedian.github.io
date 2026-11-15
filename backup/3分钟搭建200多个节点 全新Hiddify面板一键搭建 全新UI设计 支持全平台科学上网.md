@@ -44,15 +44,36 @@ https://www.itdog.cn
 ```PYTHON
 apt update && apt install -y sudo curl
 ```
-
-2、部署新版Hiddify面板
+2、安装 防火墙UFW
+首先更新软件包列表并安装 UFW
+```PYTHON
+apt install ufw -y
+```
+3、放行目标端口
+```PYTHON
+ufw allow 22/tcp
+ufw allow 1237/tcp
+ufw allow 443/udp
+ufw allow 80/udp
+```
+4、启用防火墙
+激活 UFW 以使规则生效：
+```PYTHON
+ufw enable
+```
+5、验证配置结果
+最后，检查防火墙的状态和当前生效的规则：
+```PYTHON
+ufw status
+```
+6、部署新版Hiddify面板
 ```PYTHON
 bash <(curl -fsSL https://i.hiddify.com/release)
 ```
 Hiddify项目地址
 https://github.com/hiddify/Hiddify-Manager
 
-安装 BBR 网络拥塞控制
+7、安装 BBR 网络拥塞控制
 ```PYTHON
 sh -c 'echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf' && sh -c 'echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf' && sysctl -p && lsmod | grep bbr
 ```
