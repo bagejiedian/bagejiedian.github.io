@@ -4,6 +4,8 @@ https://www.hostbuf.com
 2、下载代理软件：各平台客户端
 Windows（v2rayN）：https://github.com/2dust/v2rayNG
 Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+-----------------------：https://github.com/2dust/v2rayNG/releases/tag/1.10.18
+Hysteria2节点（NekoBox）：https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
 MacOS/Windows（Clash Verge） ：https://github.com/clash-verge-rev/clash-verge-rev/releases
 IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 苹果 电脑/手机 小火箭
@@ -23,7 +25,17 @@ https://www.lcayun.com/aff/BOWLAKCX
 ```PYTHON
 ping 自己的ip -t
 ```
-3、延迟测试 去程线路
+3、解析域名
+https://dash.cloudflare.com
+解析域名教程
+https://www.youtube.com/watch?v=lenNw3DwNco&t=6s
+https://www.youtube.com/watch?v=FwqVKZB8cOs&t=327s
+
+4、加固VPS
+https://www.youtube.com/watch?v=GnVYNaCl0Cg
+https://www.youtube.com/watch?v=JYwfCzZKGa0
+
+5、延迟测试 去程线路
 https://www.itdog.cn
 
 三：FinalShell连接vps
