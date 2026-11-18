@@ -2,7 +2,7 @@
 1、下载FinalShell（连接vps）
 https://www.hostbuf.com
 2、下载代理软件：各平台客户端
-Windows（v2rayN）：https://github.com/2dust/v2rayNG
+Windows/MacOS（v2rayN）：https://github.com/2dust/v2rayNG
 Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
 -----------------------：https://github.com/2dust/v2rayNG/releases/tag/1.10.18
 Hysteria2节点（NekoBox）：https://github.com/MatsuriDayo/NekoBoxForAndroid/releases
