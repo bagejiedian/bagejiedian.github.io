@@ -37,12 +37,18 @@ apt update && apt install -y sudo curl
 2、一键搭建代码
 
 sing-box 全家桶节点
+```PYTHON
 bash <(curl -fsSL https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)
+```
 sb调出面板
 
 S-Hy2 节点
+```PYTHON
 curl -fsSL https://raw.githubusercontent.com/sindricn/s-hy2/main/quick-install.sh | sudo bash
+```
 sudo s-hy2调出面板
 
+```PYTHON
 bash <(curl -fsSL https://www.geto.im/oneclick/install.sh)
+```
 geto调出面板
