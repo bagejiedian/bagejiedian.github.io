@@ -23,7 +23,7 @@ https://www.aliyun.com/minisite/goods?userCode=i09y6jlf
 ping 自己的ip -t
 ```
 延迟 线路测试
-https://ping0.cc
+https://www.itdog.cn
 IP检测
 https://ping0.cc
 
